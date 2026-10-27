@@ -4,9 +4,6 @@
  * Distribution: vinhdat
  * GitHub: https://github.com/vdatdv
  * Version: 1.0.0
- *
- * Based on Nightmarket source.
- * Original license and attribution retained.
  */
 
 // ========= ID ========= //
