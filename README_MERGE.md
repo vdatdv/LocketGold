@@ -8,4 +8,3 @@
 
 **Cài đặt GitHub:** tải nội dung vào repository `vdatdv/LocketGold` theo đúng cấu trúc. URL module hiện tại chỉ tải bản mới sau khi bạn push các file lên GitHub.
 
-Nguồn Remote Config: https://github.com/dth2927/locketgold
