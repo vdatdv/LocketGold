@@ -60,7 +60,7 @@ if (ua.includes("Locket")) {
                 imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
             },
             {
-                title: "Lên LocketGold rồi đó 😎"
+                title: "Lên LocketGold rồi đó 😎",
                 body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
                 imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
             }
