@@ -1,5 +1,4 @@
 /* Distribution: vinhdat | https://github.com/vdatdv
- * Based on Nightmarket source; original license and attribution retained.
  */
 // ============================================================
 // Locket Remote Config Rewrite
@@ -48,15 +47,15 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD NMS",
+            tag: "LOCKET GOLD VINHDAT",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Đã Kich Hoạt 💛",
             feature_set: [
                 {
-                    title: "Youtube @NightmarketServer ✨",
-                    body: "Nhớ Follow Kênh Ủng Hộ Mình Nhé 💛",
-                    imageURL: "https://i.postimg.cc/15BPkqNN/173376ce-0cb2-411c-80db-fe9adc931718.png"
+                    title: "Instagram: dtadvih ✨",
+                    body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
+                    imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
                 }
             ],
             primary_button_title: "Xong",
