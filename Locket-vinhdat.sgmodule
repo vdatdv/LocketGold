@@ -1,7 +1,6 @@
 #!name=Locket Gold | vinhdat (MIT derivative)
 #!desc=vinhdat packaging of Nightmarket Locket module; original copyright retained
 # Maintainer: https://github.com/vdatdv
-# Upstream: https://github.com/NightmarketServer/Module-Shadowrocket-NMS
 # License: MIT - see LICENSE and NOTICE.md
 
 [Script]
