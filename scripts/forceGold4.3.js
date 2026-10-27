@@ -54,13 +54,18 @@ if (ua.includes("Locket")) {
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Đã Kích Hoạt 💛",
-            feature_set: [
-                {
-                    title: "Instagram: dtadvih ✨",
-                    body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
-                    imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
-                }
-            ],
+        feature_set: [
+            {
+                title: "Instagram: dtadvih ✨",
+                body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
+                imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
+            },
+            {
+                title: "Mày nhìn cái chó gì? 👀",
+                body: "Lên LocketGold rồi đó 😎",
+                imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
+            }
+        ],
             primary_button_title: "Xong",
             campaign: "locket_gold_welcome_v3",
             start_at: "2020-01-01T00:00:00",
@@ -71,7 +76,7 @@ if (ua.includes("Locket")) {
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
         settings_instagram_url: "https://www.instagram.com/dtadvih/",
-        settings_tiktok_url: "https://www.instagram.com/dtadvih/"
+        settings_tiktok_url: "https://www.tiktok.com/@iamvdat"
     });
 
     // ============================================================
@@ -98,7 +103,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO (45S / 0.6MBPS) & DUNG LƯỢNG TẢI (100MB)
     // ============================================================
-    var MY_VIDEO_DURATION = 45.0;
+    var MY_VIDEO_DURATION = 60.0;
     var durationStr = MY_VIDEO_DURATION.toString();
     var MAX_SIZE_BYTES = 104857600; // 100MB
 
