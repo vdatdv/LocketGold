@@ -1,4 +1,4 @@
-/* VinhDat edition — 45s configuration derived from dth2927; original author credits retained. */
+
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
@@ -56,12 +56,12 @@ if (ua.includes("Locket")) {
         feature_set: [
             {
                 title: "Instagram: dtadvih ✨",
-                body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
+                body: "Mày nhìn cái chó gì? 👀 ",
                 imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
             },
             {
-                title: "Mày nhìn cái chó gì? 👀",
-                body: "Lên LocketGold rồi đó 😎",
+                title: "Lên LocketGold rồi đó 😎"
+                body: "Chúc Bạn Có Những Trải Nghiệm Thật Tuyệt Vời Cùng Locket Gold Nhé 💛",
                 imageURL: "https://i.postimg.cc/8Cf9cRN9/Vinhdat.png"
             }
         ],
@@ -102,7 +102,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO (45S / 0.6MBPS) & DUNG LƯỢNG TẢI (100MB)
     // ============================================================
-    var MY_VIDEO_DURATION = 60.0;
+    var MY_VIDEO_DURATION = 45.0;
     var durationStr = MY_VIDEO_DURATION.toString();
     var MAX_SIZE_BYTES = 104857600; // 100MB
 
