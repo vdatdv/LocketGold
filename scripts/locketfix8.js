@@ -21,7 +21,7 @@ var obj = JSON.parse($response.body);
 obj.Attention =
   "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
 
-var NMS = {
+var vinhdat = {
   auto_resume_date: null,
   display_name: "locket_1600_1y",
   is_sandbox: true,
@@ -68,11 +68,11 @@ if (match) {
 
   if (s) {
     locketGold.product_identifier = s;
-    obj.subscriber.subscriptions[s] = NMS;
+    obj.subscriber.subscriptions[s] = vinhdat;
   } else {
     obj.subscriber.subscriptions[
       "locket_1600_1y"
-    ] = NMS;
+    ] = vinhdat;
   }
 
   obj.subscriber.entitlements[e] = locketGold;
@@ -80,7 +80,7 @@ if (match) {
 } else {
   obj.subscriber.subscriptions[
     "locket_1600_1y"
-  ] = NMS;
+  ] = vinhdat;
 
   obj.subscriber.entitlements.pro = locketGold;
 }
