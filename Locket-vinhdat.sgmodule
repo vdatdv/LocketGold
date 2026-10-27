@@ -1,7 +1,7 @@
 #!name=Locket Gold | vinhdat (MIT derivative)
 #!desc=vinhdat packaging of Nightmarket Locket module; original copyright retained
 # Maintainer: https://github.com/vdatdv
-# License: MIT - see LICENSE and NOTICE.md
+
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/locketfix8.js, requires-body=true, max-size=-1, timeout=60
