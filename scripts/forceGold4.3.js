@@ -50,7 +50,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD VINHDAT",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Đã Kich Hoạt 💛",
+            title: "Đã Kích Hoạt 💛",
             feature_set: [
                 {
                     title: "Instagram: dtadvih ✨",
