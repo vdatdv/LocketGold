@@ -1,9 +1,5 @@
 /* Distribution: vinhdat | https://github.com/vdatdv
- * Based on Nightmarket source; original license and attribution retained.
  */
-/***********************************************
-> deleteHeader by NightmarketServer
-***********************************************/
 
 const version = 'V1.0.2';
 
