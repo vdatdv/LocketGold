@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Locket Gold + Spotify + YouTube VIP (hippobbie)</string>
+	<key>PayloadDescription</key>
+	<string>Cấu hình DNS Locket Gold — VINHDAT | Instagram: dtadvih.</string>
+	<key>PayloadIdentifier</key>
+	<string>com.locketgold.profile</string>
+	<key>PayloadOrganization</key>
+	<string>Locket Gold VIP</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9ddc879a-abb8-4bdb-9984-c53a273581e8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.locketgold.rootca</string>
+			<key>PayloadUUID</key>
+			<string>bb0640e5-040b-4ecc-9f5c-53157883582a</string>
+			<key>PayloadDisplayName</key>
+			<string>Locket Gold Root CA</string>
+			<key>PayloadDescription</key>
+			<string>Chung chi goc Locket Gold Root CA</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIDejCCAmKgAwIBAgIJAPs4V/Q5JaaQMA0GCSqGSIb3DQEBCwUA
+			MEoxCzAJBgNVBAYTAlVTMR0wGwYDVQQKDBRMb2NrZXQgR29sZCBV
+			bmxvY2tlcjEcMBoGA1UEAwwTTG9ja2V0IEdvbGQgUm9vdCBDQTAe
+			Fw0yNjEwMTkwNjU4MDJaFw0zNjEwMTYwNjU4MDJaMEoxCzAJBgNV
+			BAYTAlVTMR0wGwYDVQQKDBRMb2NrZXQgR29sZCBVbmxvY2tlcjEc
+			MBoGA1UEAwwTTG9ja2V0IEdvbGQgUm9vdCBDQTCCASIwDQYJKoZI
+			hvcNAQEBBQADggEPADCCAQoCggEBAKDRQdnLjyznevdF+p8czU7B
+			iK+V3AlNV0kdijJ1guFtAWR8H4Gp/n9bYDReYgG1T1wULP/Ycin6
+			jmEJgyHj7+Sdf+aWbdbSH9sJ88eNUSKBkQj7pM1FEzmtpn2sYYRB
+			lpHyPq+DSN7F1SIxQjLxkcn/o2R4TBub/yAGie8t0wUiplU3ERVP
+			dOXXxp4zyVCUgsNqlPpPbu9bWvAPj/esglBfXsoxGs+RVWSpRBIZ
+			Cu1qUh/M42+pfiHMBnbtEHV2b3UPp9nrMG0jQfgILSGeBNYen1zp
+			/kbQrn1yDExPL/JYTJrvUxLrDT2F6eTHE4mM64MrlcIWrM5VPr3j
+			Z1gliW0CAwEAAaNjMGEwHQYDVR0OBBYEFAYsC40T2bhGa93UwuIs
+			CKQJpuolMB8GA1UdIwQYMBaAFAYsC40T2bhGa93UwuIsCKQJpuol
+			MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgGGMA0GCSqG
+			SIb3DQEBCwUAA4IBAQASWfR8qZg2r0cWCQZ3BAKz05QQyU4s3mkb
+			5VRWSDjCzwZjB6vzSZpa0uBzHK78iqDsBO5B6nYLGW/KByf9JTAS
+			LVUv5biOCiuJ8feFyLIijbmQo2ZrUFCxc9W9fl66VC5CuCTLwMxz
+			VqLPe0TppTSHTjhIKJAtvOKyn4z8AmRKuaYZmQ4jWUH+VTp6RLmW
+			nXe3Q0XshC/sDuBUA4TIYKq/7XlPGHWKqGE0EILXOQ8honADNhMT
+			M8DWBrFbgqOU5b0l/xWZuilmEHnXc2yO9d1/74DTbxgSlpC6OtwO
+			g1wQR1xN4hA1mLUu3kdnJRBTMZ0TaoEqTMWcF8QRHfLXal81
+			</data>
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.locketgold.dns</string>
+			<key>PayloadUUID</key>
+			<string>2504b094-3aad-4998-a308-a23e7db9ffa4</string>
+			<key>PayloadDisplayName</key>
+			<string>Locket Gold + Spotify + YouTube Premium DNS</string>
+			<key>PayloadDescription</key>
+			<string>DNS-over-HTTPS Locket Gold VIP + Spotify Premium + YouTube Premium</string>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://160-191-242-70.sslip.io/dns-query/84cab5d42402</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>api.revenuecat.com</string>
+					<string>firebaseremoteconfig.googleapis.com</string>
+					<string>spclient.wg.spotify.com</string>
+					<string>wg.spotify.com</string>
+					<string>apresolve.spotify.com</string>
+					<string>gae2-spclient.spotify.com</string>
+					<string>guc3-spclient.spotify.com</string>
+					<string>gue1-spclient.spotify.com</string>
+					<string>gew1-spclient.spotify.com</string>
+					<string>guc3.spotify.com</string>
+					<string>gue3.spotify.com</string>
+					<string>gua3.spotify.com</string>
+					<string>youtubei.googleapis.com</string>
+					<string>googleads.g.doubleclick.net</string>
+					<string>pagead2.googlesyndication.com</string>
+					<string>static.doubleclick.net</string>
+					<string>ad.youtube.com</string>
+					<string>ads.youtube.com</string>
+					<string>s0.2mdn.net</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
