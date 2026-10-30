@@ -866,12 +866,12 @@ if (ua.includes("Locket")) {
                 section: "🎨 Độc lạ & Cá nhân",
                 items: [
                     {
-                        overlay_id: "caption:dth2927",
+                        overlay_id: "caption:dth24_7",
                         source: "remote",
                         caption: {
                             background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
                             max_lines: 1,
-                            text: "⚡ dth2927",
+                            text: "⚡ dth2/7",
                             text_color: "#183153",
                             type: "static_content"
                         }
