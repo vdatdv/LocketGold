@@ -1052,8 +1052,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Locket xác nhận bạn cutii",
@@ -1072,8 +1072,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Locket xác nhận bạn xjnh gái",
@@ -1092,11 +1092,11 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
-                            "text": "Locket xác nhận bạn đẹp choa",
+                            "text": "Locket xác nhận bạn đẹp choai",
                             "text_color": "#FFFFFF",
                             "type": "static_content"
                         }
@@ -1112,11 +1112,11 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
-                            "text": "Locket xác nhận bạn đangiu vc",
+                            "text": "Locket xác nhận bạn dangiu vc",
                             "text_color": "#FFFFFF",
                             "type": "static_content"
                         }
@@ -1132,8 +1132,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Đã xác minh bạn là gái đẹp",
@@ -1152,8 +1152,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Đã xác minh bạn là trai đẹp",
@@ -1172,8 +1172,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Đã xác nhận bạn là bé ngoann",
@@ -1192,8 +1192,8 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "💠",
-                                "type": "emoji"
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "type": "image"
                             },
                             "max_lines": 1,
                             "text": "Locket tuyên dương bạn cute",
