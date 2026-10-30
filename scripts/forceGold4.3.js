@@ -1110,7 +1110,7 @@ if (ua.includes("Locket")) {
                         "type": "sf_symbol"
                     },
                     "max_lines": 1,
-                    "text": "Locket xác nhận bạn đẹp choa",
+                    "text": "Locket xác nhận bạn đẹp choaiii",
                     "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
@@ -1131,7 +1131,7 @@ if (ua.includes("Locket")) {
                         "type": "sf_symbol"
                     },
                     "max_lines": 1,
-                    "text": "Locket xác nhận bạn đangiu vc",
+                    "text": "Locket xác nhận bạn dangiu vc",
                     "text_color": "#17243A",
                     "type": "static_content"
                 }
