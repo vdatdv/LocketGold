@@ -1,3 +1,4 @@
+
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
@@ -449,7 +450,7 @@ if (ua.includes("Locket")) {
             "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026"
         ]),
         overlay_items: JSON.stringify(
-        [
+[
     {
         "section": "🎨 Tình yêu & Cơm chó 💕",
         "items": [
@@ -459,9 +460,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B81",
-                            "#FF8E9E",
-                            "#FFB3C6"
+                            "#542519",
+                            "#6A3A20",
+                            "#805326"
                         ]
                     },
                     "icon": {
@@ -470,7 +471,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "em nhớ anhh",
-                    "text_color": "#8C1938",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -480,9 +481,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F0B5CB",
-                            "#F6D0DF",
-                            "#DCCAF0"
+                            "#9BE5BC",
+                            "#ACE9D3",
+                            "#BDEEE6"
                         ]
                     },
                     "icon": {
@@ -491,7 +492,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "nhớ anh tới mức hơi phiền",
-                    "text_color": "#70445A",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -501,9 +502,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF8FAB",
-                            "#FFC2D1",
-                            "#FFE5EC"
+                            "#5A1B76",
+                            "#86208D",
+                            "#A4258D"
                         ]
                     },
                     "icon": {
@@ -512,7 +513,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "i love you",
-                    "text_color": "#8A304F",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -522,9 +523,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F2B5C8",
-                            "#F8D5D9",
-                            "#F6E5D2"
+                            "#E1E88B",
+                            "#DAEC9D",
+                            "#D7EFAF"
                         ]
                     },
                     "icon": {
@@ -533,7 +534,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "yêu cục dàng",
-                    "text_color": "#754454",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -543,9 +544,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F2AFC6",
-                            "#F7C9D9",
-                            "#E5CFF4"
+                            "#1D4C62",
+                            "#244C78",
+                            "#2A468D"
                         ]
                     },
                     "icon": {
@@ -554,7 +555,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Yeu Emmm",
-                    "text_color": "#70445C",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -564,9 +565,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B8C9F2",
-                            "#D5DDF8",
-                            "#E8CFF0"
+                            "#731E43",
+                            "#892437",
+                            "#A0302A"
                         ]
                     },
                     "icon": {
@@ -575,7 +576,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Yeu Anhhh",
-                    "text_color": "#414C72",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -585,9 +586,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFB6C1",
-                            "#FF69B4",
-                            "#FF1493"
+                            "#92E58E",
+                            "#9FE9A7",
+                            "#B1EDC0"
                         ]
                     },
                     "icon": {
@@ -596,7 +597,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Baby Love 💖",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -606,9 +607,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F3AFC7",
-                            "#F8D0D8",
-                            "#F4C9BB"
+                            "#25156B",
+                            "#421982",
+                            "#671E9A"
                         ]
                     },
                     "icon": {
@@ -617,7 +618,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "cho hun miếng coi",
-                    "text_color": "#754252",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -627,9 +628,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#C4C8EF",
-                            "#DED3F4",
-                            "#EBCDE4"
+                            "#E5C3A8",
+                            "#EADAB8",
+                            "#EFECC9"
                         ]
                     },
                     "icon": {
@@ -638,7 +639,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "mê anh hơn mê ngủ",
-                    "text_color": "#4F4770",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -648,9 +649,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF8FAB",
-                            "#FFC2D1",
-                            "#FFE5EC"
+                            "#17574C",
+                            "#1D6D6B",
+                            "#227783"
                         ]
                     },
                     "icon": {
@@ -659,7 +660,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "em bé cần được dỗ",
-                    "text_color": "#812D4A",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -669,9 +670,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFD166",
-                            "#FFE8A3",
-                            "#FFF3D0"
+                            "#681862",
+                            "#7F1D65",
+                            "#962260"
                         ]
                     },
                     "icon": {
@@ -680,7 +681,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "iu thì nói, đừng có ngại",
-                    "text_color": "#704510",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -690,9 +691,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B6B",
-                            "#FF9999",
-                            "#FFD1C9"
+                            "#D5EDA0",
+                            "#CDF0B2",
+                            "#CDF4C4"
                         ]
                     },
                     "icon": {
@@ -701,7 +702,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "iu hong thì bảo",
-                    "text_color": "#812626",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -711,9 +712,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#A0C4FF",
-                            "#BDE0FE",
-                            "#DFF3FF"
+                            "#192B54",
+                            "#202B6A",
+                            "#262680"
                         ]
                     },
                     "icon": {
@@ -722,7 +723,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "anh có thương em thiệt hong",
-                    "text_color": "#23466F",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -732,9 +733,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B7E4C7",
-                            "#D8F3DC",
-                            "#F0FFF1"
+                            "#E59B9F",
+                            "#E9B5AC",
+                            "#EECEBD"
                         ]
                     },
                     "icon": {
@@ -743,7 +744,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "yêu em là nhiệm vụ cả đời",
-                    "text_color": "#24563A",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -753,9 +754,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#CDB4DB",
-                            "#E2CFEA",
-                            "#F3E5F5"
+                            "#1B762C",
+                            "#208D50",
+                            "#25A47C"
                         ]
                     },
                     "icon": {
@@ -764,7 +765,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "crush nhìn em một cái là xong",
-                    "text_color": "#593B68",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -774,9 +775,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#80CBC4",
-                            "#B2DFDB",
-                            "#E0F2F1"
+                            "#3D125C",
+                            "#5A1673",
+                            "#7D1B8B"
                         ]
                     },
                     "icon": {
@@ -785,7 +786,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "anh là ngoại lệ của em",
-                    "text_color": "#205953",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -795,9 +796,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F0B8CD",
-                            "#F7D4DF",
-                            "#E7C9EF"
+                            "#E2D69E",
+                            "#E6E7AE",
+                            "#E2ECBF"
                         ]
                     },
                     "icon": {
@@ -806,7 +807,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "hông ấy mình cưới nhau đi",
-                    "text_color": "#70465B",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -816,9 +817,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#C9184A",
-                            "#FF4D6D",
-                            "#FFB3C6"
+                            "#1E6E73",
+                            "#246A89",
+                            "#2A5EA0"
                         ]
                     },
                     "icon": {
@@ -827,7 +828,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tưởng love hoá ra lốp",
-                    "text_color": "#64152F",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             }
@@ -842,8 +843,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B9A",
-                            "#F7428C"
+                            "#E58EBE",
+                            "#E99FBD",
+                            "#EDB1C0"
                         ]
                     },
                     "icon": {
@@ -852,7 +854,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hello Kitty đáng iu",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -862,8 +864,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7A22C",
-                            "#F95148"
+                            "#2F6B15",
+                            "#248219",
+                            "#1E9A29"
                         ]
                     },
                     "icon": {
@@ -882,8 +885,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#212670",
+                            "#392886",
+                            "#5D2E9B"
                         ]
                     },
                     "icon": {
@@ -902,8 +906,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#E2AC91",
+                            "#E7C3A2",
+                            "#EBD6B3"
                         ]
                     },
                     "icon": {
@@ -912,7 +917,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Siêu Nhân Hành Động",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -922,8 +927,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B351CC",
-                            "#E25296"
+                            "#186845",
+                            "#1D7F68",
+                            "#229692"
                         ]
                     },
                     "icon": {
@@ -942,8 +948,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFCC25",
-                            "#F49B16"
+                            "#DEA0ED",
+                            "#F0B2EC",
+                            "#F4C4E5"
                         ]
                     },
                     "icon": {
@@ -952,7 +959,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cinnamoroll tai dài",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -962,8 +969,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B9A",
-                            "#F7428C"
+                            "#485419",
+                            "#506A20",
+                            "#538026"
                         ]
                     },
                     "icon": {
@@ -982,8 +990,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7A22C",
-                            "#F95148"
+                            "#1A4465",
+                            "#20417B",
+                            "#263792"
                         ]
                     },
                     "icon": {
@@ -1002,8 +1011,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#EAA3B9",
+                            "#EEB4B8",
+                            "#F2CEC6"
                         ]
                     },
                     "icon": {
@@ -1012,7 +1022,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Keroppi nhí nhảnh",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1022,8 +1032,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#125C18",
+                            "#16732C",
+                            "#1B8B45"
                         ]
                     },
                     "icon": {
@@ -1047,8 +1058,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#B49EE2",
+                            "#CCAEE7",
+                            "#DFBFEC"
                         ]
                     },
                     "icon": {
@@ -1057,7 +1069,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Locket xác nhận bạn cutii",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1067,8 +1079,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B351CC",
-                            "#E25296"
+                            "#734E1E",
+                            "#897624",
+                            "#99A02A"
                         ]
                     },
                     "icon": {
@@ -1087,8 +1100,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFCC25",
-                            "#F49B16"
+                            "#145956",
+                            "#196770",
+                            "#1F6D87"
                         ]
                     },
                     "icon": {
@@ -1107,8 +1121,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B9A",
-                            "#F7428C"
+                            "#EB96DA",
+                            "#EEA7D2",
+                            "#F1B9D0"
                         ]
                     },
                     "icon": {
@@ -1117,7 +1132,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Locket xác nhận bạn đangiu vc",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1127,8 +1142,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7A22C",
-                            "#F95148"
+                            "#4D7021",
+                            "#458628",
+                            "#369B2E"
                         ]
                     },
                     "icon": {
@@ -1147,8 +1163,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#919FE2",
+                            "#A2A3E7",
+                            "#BAB3EB"
                         ]
                     },
                     "icon": {
@@ -1157,7 +1174,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đã xác minh bạn là trai đẹp",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1167,8 +1184,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#681D18",
+                            "#7F371D",
+                            "#965822"
                         ]
                     },
                     "icon": {
@@ -1187,8 +1205,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B351CC",
-                            "#E25296"
+                            "#187A37",
+                            "#1C915E",
+                            "#21A98F"
                         ]
                     },
                     "icon": {
@@ -1210,77 +1229,165 @@ if (ua.includes("Locket")) {
                 "overlay_id": "caption:standard",
                 "source": "local",
                 "caption": {
-                    "type": "standard"
+                    "type": "standard",
+                    "background": {
+                        "colors": [
+                            "#C994DF",
+                            "#DBA5E4",
+                            "#E9B5E9"
+                        ]
+                    },
+                    "text_color": "#17243A"
                 }
             },
             {
                 "overlay_id": "caption:review",
                 "source": "local",
                 "caption": {
-                    "type": "review"
+                    "type": "review",
+                    "background": {
+                        "colors": [
+                            "#65611A",
+                            "#6E7B20",
+                            "#6D9226"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:music",
                 "source": "local",
                 "caption": {
-                    "type": "music"
+                    "type": "music",
+                    "background": {
+                        "colors": [
+                            "#A3DCEA",
+                            "#B4D5EE",
+                            "#C6D4F2"
+                        ]
+                    },
+                    "text_color": "#17243A"
                 }
             },
             {
                 "overlay_id": "caption:location",
                 "source": "local",
                 "caption": {
-                    "type": "location"
+                    "type": "location",
+                    "background": {
+                        "colors": [
+                            "#5C1231",
+                            "#73162F",
+                            "#8B1B28"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:weather",
                 "source": "local",
                 "caption": {
-                    "type": "weather"
+                    "type": "weather",
+                    "background": {
+                        "colors": [
+                            "#29621D",
+                            "#247826",
+                            "#2A8D40"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:time",
                 "source": "local",
                 "caption": {
-                    "type": "time"
+                    "type": "time",
+                    "background": {
+                        "colors": [
+                            "#AAA5E8",
+                            "#C7B6EC",
+                            "#DEC7F0"
+                        ]
+                    },
+                    "text_color": "#17243A"
                 }
             },
             {
                 "overlay_id": "caption:streak",
                 "source": "local",
                 "caption": {
-                    "type": "streak"
+                    "type": "streak",
+                    "background": {
+                        "colors": [
+                            "#593414",
+                            "#704E19",
+                            "#876E1F"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:star_sign",
                 "source": "local",
                 "caption": {
-                    "type": "star_sign"
+                    "type": "star_sign",
+                    "background": {
+                        "colors": [
+                            "#96EBD1",
+                            "#A7EEE7",
+                            "#B9ECF1"
+                        ]
+                    },
+                    "text_color": "#17243A"
                 }
             },
             {
                 "overlay_id": "caption:poll",
                 "source": "local",
                 "caption": {
-                    "type": "poll"
+                    "type": "poll",
+                    "background": {
+                        "colors": [
+                            "#6B2170",
+                            "#862874",
+                            "#9B2E6C"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:color_palette",
                 "source": "local",
                 "caption": {
-                    "type": "color_palette"
+                    "type": "color_palette",
+                    "background": {
+                        "colors": [
+                            "#425717",
+                            "#466D1D",
+                            "#468322"
+                        ]
+                    },
+                    "text_color": "#FFFFFF"
                 }
             },
             {
                 "overlay_id": "caption:locket_count",
                 "source": "local",
                 "caption": {
-                    "type": "locket_count"
+                    "type": "locket_count",
+                    "background": {
+                        "colors": [
+                            "#98BAE8",
+                            "#AAB9EC",
+                            "#BBBDF0"
+                        ]
+                    },
+                    "text_color": "#17243A"
                 }
             }
         ]
@@ -1294,8 +1401,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#150804",
-                            "#C8540D"
+                            "#7A1829",
+                            "#91241C",
+                            "#A94B21"
                         ]
                     },
                     "icon": {
@@ -1308,7 +1416,7 @@ if (ua.includes("Locket")) {
                         "en": "Halloween",
                         "vn": "Halloween"
                     },
-                    "text_color": "#FFB182",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1318,8 +1426,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFE0A0",
-                            "#F6A53A"
+                            "#94DFA4",
+                            "#A5E4BB",
+                            "#B5E9CF"
                         ]
                     },
                     "icon": {
@@ -1332,7 +1441,7 @@ if (ua.includes("Locket")) {
                         "en": "Xin chào Mùa Thu",
                         "vn": "Xin chào Mùa Thu"
                     },
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1342,8 +1451,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2FA85F",
-                            "#176B3A"
+                            "#3C1A65",
+                            "#5B207B",
+                            "#812692"
                         ]
                     },
                     "icon": {
@@ -1366,8 +1476,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFC64B",
-                            "#FFEDBF"
+                            "#765A1B",
+                            "#8D8720",
+                            "#8DA425"
                         ]
                     },
                     "icon": {
@@ -1380,7 +1491,7 @@ if (ua.includes("Locket")) {
                         "en": "Xin chào 2027!",
                         "vn": "Xin chào 2027!"
                     },
-                    "text_color": "#643F00",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1390,13 +1501,14 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF0062",
-                            "#FF783F"
+                            "#8BE1E8",
+                            "#9DDAEC",
+                            "#AFD7EF"
                         ]
                     },
                     "max_lines": 1,
                     "text": "2027",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             }
@@ -1411,13 +1523,14 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFFFFF",
-                            "#6D9EEB"
+                            "#621D4C",
+                            "#78244C",
+                            "#8D2A46"
                         ]
                     },
                     "max_lines": 1,
                     "text": "보고 싶어 🥺",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1427,8 +1540,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5EFFF5",
-                            "#FCFF57"
+                            "#C2E8A5",
+                            "#C0ECB6",
+                            "#C7F0CA"
                         ]
                     },
                     "icon": {
@@ -1437,7 +1551,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Party Time!",
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1449,8 +1563,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EF7402",
-                            "#EABF0F"
+                            "#141759",
+                            "#231970",
+                            "#391F87"
                         ]
                     },
                     "icon": {
@@ -1459,7 +1574,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Good morning",
-                    "text_color": "#FFFFFFE5",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1471,8 +1586,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#370C6F",
-                            "#575CD4"
+                            "#6B2615",
+                            "#824319",
+                            "#9A681E"
                         ]
                     },
                     "icon": {
@@ -1481,7 +1597,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Goodnight",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1491,8 +1607,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFFFFF",
-                            "#DBDBDB"
+                            "#A8E5C3",
+                            "#B8EADB",
+                            "#C9EFEC"
                         ]
                     },
                     "icon": {
@@ -1501,7 +1618,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "OOTD",
-                    "text_color": "#101010E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1511,8 +1628,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EC0C00",
-                            "#FF493F"
+                            "#4C1757",
+                            "#6C1D6D",
+                            "#832277"
                         ]
                     },
                     "icon": {
@@ -1521,7 +1639,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Miss you",
-                    "text_color": "#FFFFFFDB",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             }
@@ -1536,14 +1654,14 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B8E7FF",
-                            "#A8F5D0",
-                            "#DCCBFF"
+                            "#E2E898",
+                            "#DAECAA",
+                            "#D7F0BB"
                         ]
                     },
                     "max_lines": 1,
                     "text": "⚡ dth24/7",
-                    "text_color": "#183153",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1553,8 +1671,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F8BBD0",
-                            "#E91E63"
+                            "#185A7A",
+                            "#1C4F91",
+                            "#213AA9"
                         ]
                     },
                     "icon": {
@@ -1567,7 +1686,7 @@ if (ua.includes("Locket")) {
                         "en": "Feeling Cute",
                         "vn": "Cảm thấy dthw"
                     },
-                    "text_color": "#FFFFFFE5",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1577,14 +1696,14 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFD6A5",
-                            "#FFF1A8",
-                            "#FFC4D6"
+                            "#54192B",
+                            "#6A202A",
+                            "#802726"
                         ]
                     },
                     "max_lines": 1,
                     "text": "Cu 🐎",
-                    "text_color": "#633B24",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1594,9 +1713,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2C1A0E",
-                            "#5D4037",
-                            "#D7A86E"
+                            "#9FE59B",
+                            "#ACE9B5",
+                            "#BDEECE"
                         ]
                     },
                     "icon": {
@@ -1605,7 +1724,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tuất",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1615,8 +1734,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFE4E1",
-                            "#E73C7E"
+                            "#2D1B76",
+                            "#50208D",
+                            "#7D25A4"
                         ]
                     },
                     "icon": {
@@ -1629,7 +1749,7 @@ if (ua.includes("Locket")) {
                         "en": "Wedding Time!",
                         "vn": "Đám cưới nè!"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1639,8 +1759,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EC407A",
-                            "#F8BBD0"
+                            "#E8C18B",
+                            "#ECD79D",
+                            "#EFE8AF"
                         ]
                     },
                     "icon": {
@@ -1653,7 +1774,7 @@ if (ua.includes("Locket")) {
                         "en": "Feeling Happy",
                         "vn": "Cảm thấy hạnh phúc"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1663,8 +1784,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#4E342E",
-                            "#8D6E63"
+                            "#1D6256",
+                            "#247678",
+                            "#2A778D"
                         ]
                     },
                     "icon": {
@@ -1677,7 +1799,7 @@ if (ua.includes("Locket")) {
                         "en": "Coffee Time!",
                         "vn": "Giờ uống cà phê!"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1687,8 +1809,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2E7D32",
-                            "#66BB6A"
+                            "#731E6D",
+                            "#892469",
+                            "#A02A5D"
                         ]
                     },
                     "icon": {
@@ -1701,7 +1824,7 @@ if (ua.includes("Locket")) {
                         "en": "Snake Vibes",
                         "vn": "Chất rắn"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1711,8 +1834,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFF9C4",
-                            "#F8BBD0"
+                            "#BDE58E",
+                            "#BCE99F",
+                            "#BFEDB1"
                         ]
                     },
                     "icon": {
@@ -1725,7 +1849,7 @@ if (ua.includes("Locket")) {
                         "en": "Mixue Time!",
                         "vn": "Giờ Mixue!"
                     },
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1735,8 +1859,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#ECEFF1",
-                            "#B3E5FC"
+                            "#152E6B",
+                            "#192482",
+                            "#2A1E9A"
                         ]
                     },
                     "icon": {
@@ -1745,7 +1870,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Locket Time!",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1755,8 +1880,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1A237E",
-                            "#455A64"
+                            "#E5A8AB",
+                            "#EAC2B8",
+                            "#EFD9C9"
                         ]
                     },
                     "icon": {
@@ -1765,7 +1891,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cinema Time!",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1775,8 +1901,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E91E63",
-                            "#F44336"
+                            "#17572C",
+                            "#1D6D44",
+                            "#228360"
                         ]
                     },
                     "icon": {
@@ -1785,7 +1912,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Dating Time!",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1795,8 +1922,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1A237E",
-                            "#283593"
+                            "#461868",
+                            "#691D7F",
+                            "#932296"
                         ]
                     },
                     "icon": {
@@ -1809,7 +1937,7 @@ if (ua.includes("Locket")) {
                         "en": "Happy Graduation Day!",
                         "vn": "Chúc mừng tốt nghiệp!"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1819,8 +1947,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B3E5FC",
-                            "#FFFFFF"
+                            "#EDDFA0",
+                            "#ECF0B2",
+                            "#E5F4C4"
                         ]
                     },
                     "icon": {
@@ -1833,7 +1962,7 @@ if (ua.includes("Locket")) {
                         "en": "Shopping Time!",
                         "vn": "Giờ mua sắm!"
                     },
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1843,8 +1972,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFCCBC",
-                            "#FF8A80"
+                            "#194854",
+                            "#204F6A",
+                            "#265280"
                         ]
                     },
                     "icon": {
@@ -1857,7 +1987,7 @@ if (ua.includes("Locket")) {
                         "en": "Dinner Time!",
                         "vn": "Giờ ăn tối!"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1867,8 +1997,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E1BEE7",
-                            "#F8BBD0"
+                            "#E59BC3",
+                            "#E9ACC1",
+                            "#EEBDC4"
                         ]
                     },
                     "icon": {
@@ -1881,7 +2012,7 @@ if (ua.includes("Locket")) {
                         "en": "Chilling Time!",
                         "vn": "Giờ thư giãn!"
                     },
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             }
@@ -1896,8 +2027,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#232526",
-                            "#414345"
+                            "#37761B",
+                            "#268D20",
+                            "#25A43D"
                         ]
                     },
                     "icon": {
@@ -1906,7 +2038,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Xin vĩnh biệt cụ",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1916,8 +2048,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#D31027",
-                            "#EA384D"
+                            "#18125C",
+                            "#2C1673",
+                            "#461B8B"
                         ]
                     },
                     "icon": {
@@ -1926,7 +2059,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Chạy ngay đi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1936,9 +2069,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#0F2027",
-                            "#203A43",
-                            "#2C5364"
+                            "#E2B49E",
+                            "#E7CCAE",
+                            "#ECE0BF"
                         ]
                     },
                     "icon": {
@@ -1947,7 +2080,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Lúc nào có tiền thì mới đi á",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1957,8 +2090,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#56AB2F",
-                            "#A8E063"
+                            "#1E734F",
+                            "#248977",
+                            "#2A98A0"
                         ]
                     },
                     "icon": {
@@ -1967,7 +2101,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cứ từ từ khoai sẽ nhừ",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -1977,8 +2111,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#654EA3",
-                            "#EAAFC8"
+                            "#E28EE5",
+                            "#E99FE1",
+                            "#EDB1DE"
                         ]
                     },
                     "icon": {
@@ -1987,7 +2122,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Kiểm tra nhân phẩm",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -1997,8 +2132,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1E90FF",
-                            "#00D4FF"
+                            "#596B15",
+                            "#588219",
+                            "#4F9A1E"
                         ]
                     },
                     "icon": {
@@ -2007,7 +2143,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đọc số tài khoản đi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2017,8 +2153,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B71C1C",
-                            "#FF5722"
+                            "#214D70",
+                            "#284586",
+                            "#2E359B"
                         ]
                     },
                     "icon": {
@@ -2027,7 +2164,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "ai sợ thì đi về",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2037,8 +2174,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#D7CCC8",
-                            "#8D6E63"
+                            "#E2919E",
+                            "#E7A2A3",
+                            "#EBBBB3"
                         ]
                     },
                     "icon": {
@@ -2047,7 +2185,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "còn cái nịt",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2057,8 +2195,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#9C27B0",
-                            "#E91E63"
+                            "#18681E",
+                            "#1D7F38",
+                            "#229659"
                         ]
                     },
                     "icon": {
@@ -2067,7 +2206,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "cảnh báo có hát",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2077,8 +2216,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#607D8B",
-                            "#37474F"
+                            "#B9A0ED",
+                            "#D5B2F0",
+                            "#EBC4F4"
                         ]
                     },
                     "icon": {
@@ -2087,7 +2227,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Thân chưa mà dỡn",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2097,8 +2237,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E91E63",
-                            "#F44336"
+                            "#544319",
+                            "#6A6020",
+                            "#7F8026"
                         ]
                     },
                     "icon": {
@@ -2107,7 +2248,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ai mượn?",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2117,8 +2258,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFF59D",
-                            "#80DEEA"
+                            "#1A6562",
+                            "#206D7B",
+                            "#266C92"
                         ]
                     },
                     "icon": {
@@ -2127,7 +2269,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hay ra dẻ quá à!",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2137,8 +2279,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#4CAF50",
-                            "#00BCD4"
+                            "#EAA3DC",
+                            "#EEB4D4",
+                            "#F2C6D3"
                         ]
                     },
                     "icon": {
@@ -2147,7 +2290,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Giảm sức mạnh con tướng",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2157,8 +2300,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFB74D",
-                            "#F8BBD0"
+                            "#305C12",
+                            "#2F7316",
+                            "#288B1B"
                         ]
                     },
                     "icon": {
@@ -2167,7 +2311,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mắc cỡ quá hai ơi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2177,8 +2321,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#263238",
-                            "#455A64"
+                            "#9EAAE2",
+                            "#B0AEE7",
+                            "#C9BFEC"
                         ]
                     },
                     "icon": {
@@ -2187,7 +2332,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mình là lốp",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2197,8 +2342,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF5722",
-                            "#FFC107"
+                            "#73241E",
+                            "#894424",
+                            "#A06C2A"
                         ]
                     },
                     "icon": {
@@ -2207,7 +2353,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đẹp trai có gì sai",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2217,8 +2363,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#D8B4E2",
-                            "#F8BBD0"
+                            "#145934",
+                            "#19704F",
+                            "#1F876E"
                         ]
                     },
                     "icon": {
@@ -2227,7 +2374,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mong tôn hoa sen thấy cảnh này",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2237,8 +2384,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E53935",
-                            "#FF7043"
+                            "#D196EB",
+                            "#E7A7EE",
+                            "#F1B9EC"
                         ]
                     },
                     "icon": {
@@ -2247,7 +2395,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "đấm nhau không",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2257,8 +2405,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EC407A",
-                            "#F44336"
+                            "#706C21",
+                            "#738628",
+                            "#6B9B2E"
                         ]
                     },
                     "icon": {
@@ -2267,7 +2416,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "siêu cấp bá khí",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2277,8 +2426,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#263238",
-                            "#455A64"
+                            "#91C7E2",
+                            "#A2C5E7",
+                            "#B3C7EB"
                         ]
                     },
                     "icon": {
@@ -2287,7 +2437,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "dự án ma",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2297,8 +2447,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF5F6D",
-                            "#FFC371"
+                            "#681839",
+                            "#7F1D32",
+                            "#962225"
                         ]
                     },
                     "icon": {
@@ -2317,8 +2468,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1A2980",
-                            "#26D0CE"
+                            "#297A18",
+                            "#1C9124",
+                            "#21A94C"
                         ]
                     },
                     "icon": {
@@ -2337,8 +2489,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFB75E",
-                            "#ED8F03"
+                            "#A494DF",
+                            "#BCA5E4",
+                            "#D0B5E9"
                         ]
                     },
                     "icon": {
@@ -2347,7 +2500,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mỏ hỗn nhưng tâm hiền",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2357,8 +2510,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF9A9E",
-                            "#FECFEF"
+                            "#653C1A",
+                            "#7B5C20",
+                            "#928226"
                         ]
                     },
                     "icon": {
@@ -2382,8 +2536,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#546E7A",
-                            "#263238"
+                            "#A3EAD5",
+                            "#B4EEEB",
+                            "#C6E9F2"
                         ]
                     },
                     "icon": {
@@ -2392,7 +2547,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hồi chiều trời mưa...",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2402,8 +2557,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#12C2E9",
-                            "#F64F59"
+                            "#5C1255",
+                            "#73165D",
+                            "#8B1B5F"
                         ]
                     },
                     "icon": {
@@ -2412,7 +2568,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "côn viên lá làn",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2422,9 +2578,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#3E2723",
-                            "#6D4C41",
-                            "#A1887F"
+                            "#4B621D",
+                            "#4B7824",
+                            "#458D2A"
                         ]
                     },
                     "icon": {
@@ -2433,7 +2589,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Gián đáng iu hong",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2443,9 +2599,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#7B1FA2",
-                            "#E91E63",
-                            "#FFB74D"
+                            "#A5C1E8",
+                            "#B6C0EC",
+                            "#CAC7F0"
                         ]
                     },
                     "icon": {
@@ -2454,7 +2610,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Nấu xói",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2464,10 +2620,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#0F0C29",
-                            "#302B63",
-                            "#F7971E",
-                            "#FFD200"
+                            "#591417",
+                            "#702319",
+                            "#873A1F"
                         ]
                     },
                     "icon": {
@@ -2476,7 +2631,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Có tiền làm phiền thiên hạ",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2486,10 +2641,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#232526",
-                            "#414345",
-                            "#6C7A89",
-                            "#B0BEC5"
+                            "#96EBA7",
+                            "#A7EEC4",
+                            "#B9F1DB"
                         ]
                     },
                     "icon": {
@@ -2498,7 +2652,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Người im lặng gặp người hay nói",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2508,10 +2662,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF9A9E",
-                            "#FECFEF",
-                            "#FBC2EB",
-                            "#A6C1EE"
+                            "#452170",
+                            "#692886",
+                            "#952E9B"
                         ]
                     },
                     "icon": {
@@ -2520,7 +2673,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "rồi lét luôn",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2530,10 +2683,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6EC7",
-                            "#7873F5",
-                            "#4ADEDE",
-                            "#FFE66D"
+                            "#574D17",
+                            "#6D6C1D",
+                            "#768322"
                         ]
                     },
                     "icon": {
@@ -2542,7 +2694,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "rồi gay luôn",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2552,8 +2704,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF416C",
-                            "#FF4B2B"
+                            "#98E1E8",
+                            "#AAD9EC",
+                            "#BBD7F0"
                         ]
                     },
                     "icon": {
@@ -2562,7 +2715,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tuyệt đối không nghe",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2572,10 +2725,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFDEE9",
-                            "#B5FFFC",
-                            "#FAD0C4",
-                            "#FFD1FF"
+                            "#7A185A",
+                            "#911C4E",
+                            "#A92139"
                         ]
                     },
                     "icon": {
@@ -2584,7 +2736,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cha này tự luyến ghê",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2594,9 +2746,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF512F",
-                            "#F09819",
-                            "#FFD200"
+                            "#AADF94",
+                            "#ADE4A5",
+                            "#B5E9B6"
                         ]
                     },
                     "icon": {
@@ -2605,7 +2757,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Có biến có biến",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2615,9 +2767,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#8A2387",
-                            "#E94057",
-                            "#F27121"
+                            "#1A1E65",
+                            "#2E207B",
+                            "#4C2692"
                         ]
                     },
                     "icon": {
@@ -2626,7 +2778,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hóng drama",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2636,9 +2788,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7971E",
-                            "#FFD200",
-                            "#FFEE58"
+                            "#762D1B",
+                            "#8D5120",
+                            "#A47D25"
                         ]
                     },
                     "icon": {
@@ -2647,7 +2799,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cười vcl m oi",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2657,9 +2809,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1F1C2C",
-                            "#928DAB",
-                            "#C9D6FF"
+                            "#8BE8C2",
+                            "#9DECD7",
+                            "#AFEFE8"
                         ]
                     },
                     "icon": {
@@ -2668,7 +2820,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "vl m ơi?",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2678,10 +2830,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EE9CA7",
-                            "#FFDDE1",
-                            "#C6FFDD",
-                            "#FBD786"
+                            "#571D62",
+                            "#782475",
+                            "#8D2A77"
                         ]
                     },
                     "icon": {
@@ -2690,7 +2841,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Nói hết bị mật thì có yêu hong",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2700,8 +2851,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7971E",
-                            "#FFD200"
+                            "#E2E8A5",
+                            "#DBECB6",
+                            "#D9F0C7"
                         ]
                     },
                     "icon": {
@@ -2710,7 +2862,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Flex đến hơi thở cuối",
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2720,8 +2872,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2C3E50",
-                            "#4CA1AF"
+                            "#143959",
+                            "#193B70",
+                            "#1F3787"
                         ]
                     },
                     "icon": {
@@ -2730,7 +2883,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Overthinking vai chưởng",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2740,8 +2893,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#870000",
-                            "#190A05"
+                            "#6B152E",
+                            "#821923",
+                            "#9A2B1E"
                         ]
                     },
                     "icon": {
@@ -2760,8 +2914,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#11998E",
-                            "#38EF7D"
+                            "#ABE5A8",
+                            "#B8EAC2",
+                            "#C9EFDA"
                         ]
                     },
                     "icon": {
@@ -2770,7 +2925,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "oách xà lách",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2780,9 +2935,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FBD3E9",
-                            "#BB377D",
-                            "#6A0572"
+                            "#2D1757",
+                            "#441D6D",
+                            "#602283"
                         ]
                     },
                     "icon": {
@@ -2791,7 +2946,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "lại phải lọ",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2801,8 +2956,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#8E2DE2",
-                            "#4A00E0"
+                            "#E8C798",
+                            "#ECDDAA",
+                            "#F0EFBB"
                         ]
                     },
                     "icon": {
@@ -2811,7 +2967,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ủa alo",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2821,8 +2977,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#8A2387",
-                            "#E94057"
+                            "#187A69",
+                            "#1C8991",
+                            "#217DA9"
                         ]
                     },
                     "icon": {
@@ -2831,7 +2988,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Kể chuyện nghe chơi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2841,8 +2998,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#141E30",
-                            "#243B55"
+                            "#541948",
+                            "#6A204F",
+                            "#802651"
                         ]
                     },
                     "icon": {
@@ -2861,8 +3019,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FC5C7D",
-                            "#6A82FB"
+                            "#C3E59B",
+                            "#C1E9AC",
+                            "#C4EEBD"
                         ]
                     },
                     "icon": {
@@ -2871,7 +3030,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Xinh đẹp tuyệt vời",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2881,8 +3040,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1F1C2C",
-                            "#928DAB"
+                            "#1B3676",
+                            "#20268D",
+                            "#3E25A4"
                         ]
                     },
                     "icon": {
@@ -2891,7 +3051,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Trầm cảm nhẹ",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2901,8 +3061,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF5349",
-                            "#EB0C00"
+                            "#E8938B",
+                            "#ECB09D",
+                            "#EFC8AF"
                         ]
                     },
                     "icon": {
@@ -2911,7 +3072,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Chưa đủ wow",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2921,8 +3082,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#9C27B0",
-                            "#7B1FA2"
+                            "#1D6234",
+                            "#247851",
+                            "#2A8D73"
                         ]
                     },
                     "icon": {
@@ -2931,7 +3093,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Bóc trúng sít rịt",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2941,8 +3103,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#00BCD4",
-                            "#0097A7"
+                            "#4F1E73",
+                            "#782489",
+                            "#A02A97"
                         ]
                     },
                     "icon": {
@@ -2951,7 +3114,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hèn lắm mới xui được vậy á",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -2961,8 +3124,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2196F3",
-                            "#1976D2"
+                            "#E5E28E",
+                            "#E1E99F",
+                            "#DDEDB1"
                         ]
                     },
                     "icon": {
@@ -2971,7 +3135,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ra đường nể mỗi anh",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -2981,8 +3145,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFC107",
-                            "#FFA000"
+                            "#15596B",
+                            "#195782",
+                            "#1E4F9A"
                         ]
                     },
                     "icon": {
@@ -2991,7 +3156,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cũng cứng đi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3001,8 +3166,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#455A64",
-                            "#263238"
+                            "#E5A8C9",
+                            "#EAB8C7",
+                            "#EFC9CB"
                         ]
                     },
                     "icon": {
@@ -3011,7 +3177,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tuyệt đối điện ảnh",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3021,8 +3187,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF5722",
-                            "#E64A19"
+                            "#215717",
+                            "#1D6D1D",
+                            "#228330"
                         ]
                     },
                     "icon": {
@@ -3031,7 +3198,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đủ bá khí chưa",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3041,8 +3208,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F44336",
-                            "#D32F2F"
+                            "#1E1868",
+                            "#391D7F",
+                            "#5A2296"
                         ]
                     },
                     "icon": {
@@ -3051,7 +3219,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cái gì vậy trời",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3061,8 +3229,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#607D8B",
-                            "#455A64"
+                            "#EDB9A0",
+                            "#F0D6B2",
+                            "#F4EBC4"
                         ]
                     },
                     "icon": {
@@ -3071,7 +3240,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Này là hết cứu",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3081,8 +3250,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#26A69A",
-                            "#00897B"
+                            "#195444",
+                            "#206A60",
+                            "#267E80"
                         ]
                     },
                     "icon": {
@@ -3091,7 +3261,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Quá là điện ảnh",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3101,8 +3271,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7A22C",
-                            "#F95148"
+                            "#E29BE5",
+                            "#E9ACE0",
+                            "#EEBDDC"
                         ]
                     },
                     "icon": {
@@ -3111,7 +3282,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đỉnh nóc kịch trần bay phấp phới",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3121,8 +3292,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#64761B",
+                            "#5C8D20",
+                            "#4CA425"
                         ]
                     },
                     "icon": {
@@ -3146,8 +3318,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#114357",
-                            "#F29492"
+                            "#12305C",
+                            "#162E73",
+                            "#1B278B"
                         ]
                     },
                     "icon": {
@@ -3166,8 +3339,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2193B0",
-                            "#6DD5ED"
+                            "#E29EA9",
+                            "#E7B0AE",
+                            "#ECC9BF"
                         ]
                     },
                     "icon": {
@@ -3176,7 +3350,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cảm lạnh",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3186,8 +3360,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2C3E50",
-                            "#3498DB"
+                            "#1E7325",
+                            "#248945",
+                            "#2AA06D"
                         ]
                     },
                     "icon": {
@@ -3206,8 +3381,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F6D365",
-                            "#FDA085"
+                            "#B78EE5",
+                            "#CD9FE9",
+                            "#DFB1ED"
                         ]
                     },
                     "icon": {
@@ -3216,7 +3392,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Xin lũi được chưa",
-                    "text_color": "#000000",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3226,8 +3402,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#1CB5E0",
-                            "#000046"
+                            "#6B5215",
+                            "#827919",
+                            "#8C9A1E"
                         ]
                     },
                     "icon": {
@@ -3246,8 +3423,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#3A1C71",
-                            "#D76D77"
+                            "#21706C",
+                            "#287386",
+                            "#2E6A9B"
                         ]
                     },
                     "icon": {
@@ -3266,8 +3444,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#C33764",
-                            "#1D2671"
+                            "#E291C6",
+                            "#E7A2C5",
+                            "#EBB3C7"
                         ]
                     },
                     "icon": {
@@ -3276,7 +3455,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tiền đình",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3286,8 +3465,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF4E50",
-                            "#F9D423"
+                            "#396818",
+                            "#327F1D",
+                            "#249622"
                         ]
                     },
                     "icon": {
@@ -3306,8 +3486,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F77062",
-                            "#FE5196"
+                            "#A0ADED",
+                            "#B7B2F0",
+                            "#D3C4F4"
                         ]
                     },
                     "icon": {
@@ -3316,7 +3497,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Xinh gái ấn phím 1",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3326,8 +3507,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FDC830",
-                            "#F37335"
+                            "#542619",
+                            "#6A3B20",
+                            "#805526"
                         ]
                     },
                     "icon": {
@@ -3351,8 +3533,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFEB3B",
-                            "#FF9800"
+                            "#1A653D",
+                            "#207B5C",
+                            "#269282"
                         ]
                     },
                     "icon": {
@@ -3361,7 +3544,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cười xỉu",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3371,8 +3554,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F44336",
-                            "#B71C1C"
+                            "#D5A3EA",
+                            "#EBB4EE",
+                            "#F2C6E9"
                         ]
                     },
                     "icon": {
@@ -3381,7 +3565,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Toang thật rồi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3391,8 +3575,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#673AB7",
-                            "#512DA8"
+                            "#555C12",
+                            "#5D7316",
+                            "#5F8B1B"
                         ]
                     },
                     "icon": {
@@ -3401,7 +3586,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tới rồi tới rồi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3411,8 +3596,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#00BCD4",
-                            "#0097A7"
+                            "#9ECBE2",
+                            "#AEC9E7",
+                            "#BFCBEC"
                         ]
                     },
                     "icon": {
@@ -3421,7 +3607,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Không thể tin nổi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             }
@@ -3436,8 +3622,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#4CAF50",
-                            "#2E7D32"
+                            "#731E42",
+                            "#892435",
+                            "#A0322A"
                         ]
                     },
                     "icon": {
@@ -3446,7 +3633,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ngày mới vui vẻ",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3456,8 +3643,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#3F51B5",
-                            "#1A237E"
+                            "#165914",
+                            "#197024",
+                            "#1F873B"
                         ]
                     },
                     "icon": {
@@ -3466,7 +3654,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ngủ ngon",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3476,8 +3664,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF9800",
-                            "#F57C00"
+                            "#A896EB",
+                            "#C4A7EE",
+                            "#DCB9F1"
                         ]
                     },
                     "icon": {
@@ -3486,7 +3675,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ăn cơm chưa?",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3496,8 +3685,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E91E63",
-                            "#C2185B"
+                            "#704521",
+                            "#866A28",
+                            "#9B962E"
                         ]
                     },
                     "icon": {
@@ -3506,7 +3696,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đi chơi không?",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             }
@@ -3521,8 +3711,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFD700",
-                            "#FF8C00"
+                            "#91E2D6",
+                            "#A2E7E6",
+                            "#B3E3EB"
                         ]
                     },
                     "icon": {
@@ -3531,7 +3722,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tinh hoa hội tụ",
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3541,8 +3732,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#8E2DE2",
-                            "#4A00E0"
+                            "#681861",
+                            "#7F1D63",
+                            "#96225E"
                         ]
                     },
                     "icon": {
@@ -3551,7 +3743,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Phụ tình không phụ bản",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3561,8 +3753,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFAFBD",
-                            "#FFC3A0"
+                            "#597A18",
+                            "#4E911C",
+                            "#39A921"
                         ]
                     },
                     "icon": {
@@ -3571,7 +3764,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ngoan xinh yêu của ai?",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3581,8 +3774,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2980B9",
-                            "#2C3E50"
+                            "#94A9DF",
+                            "#A5ADE4",
+                            "#B6B5E9"
                         ]
                     },
                     "icon": {
@@ -3591,7 +3785,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Nhìn là biết uy tín",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             }
@@ -3606,8 +3800,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#00F2FE",
-                            "#4FACFE"
+                            "#651A1D",
+                            "#7B2F20",
+                            "#924D26"
                         ]
                     },
                     "icon": {
@@ -3616,7 +3811,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Luôn vui tươi",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3626,8 +3821,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#636363",
-                            "#A2AB58"
+                            "#A3EAB2",
+                            "#B4EECE",
+                            "#C6F2E5"
                         ]
                     },
                     "icon": {
@@ -3636,7 +3832,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Bất ổn thật sự",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3646,8 +3842,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#434343",
-                            "#000000"
+                            "#3E125C",
+                            "#5C1673",
+                            "#7F1B8B"
                         ]
                     },
                     "icon": {
@@ -3656,7 +3853,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Không cảm xúc",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3666,8 +3863,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF0844",
-                            "#FFB199"
+                            "#62571D",
+                            "#757824",
+                            "#768D2A"
                         ]
                     },
                     "icon": {
@@ -3676,7 +3874,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Phụ huynh đừng xem",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             }
@@ -3691,8 +3889,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#11998E",
-                            "#38EF7D"
+                            "#A5E2E8",
+                            "#B6DAEC",
+                            "#C7D9F0"
                         ]
                     },
                     "icon": {
@@ -3701,7 +3900,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Check VAR liền",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3711,8 +3910,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F38181",
-                            "#FCE38A"
+                            "#591439",
+                            "#70193A",
+                            "#871F37"
                         ]
                     },
                     "icon": {
@@ -3721,7 +3921,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Quá nhiều sự dễ thương",
-                    "text_color": "#000000E6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3731,8 +3931,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#EE9CA7",
-                            "#FFDDE1"
+                            "#AEEB96",
+                            "#AEEEA7",
+                            "#B9F1C0"
                         ]
                     },
                     "icon": {
@@ -3741,7 +3942,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mắc bẫy tình yêu",
-                    "text_color": "#000000E6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3751,8 +3952,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#3A1C71",
-                            "#D76D77"
+                            "#212570",
+                            "#3B2886",
+                            "#5F2E9B"
                         ]
                     },
                     "icon": {
@@ -3761,7 +3963,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Sóng gió phủ đời trai",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             }
@@ -3776,8 +3978,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#ED213A",
-                            "#93291E"
+                            "#572D17",
+                            "#6D451D",
+                            "#836122"
                         ]
                     },
                     "icon": {
@@ -3786,7 +3989,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Deadline dí tụt quần",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3796,9 +3999,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#0F2027",
-                            "#1B5E20",
-                            "#66BB6A"
+                            "#98E8C7",
+                            "#AAECDE",
+                            "#BBF0EF"
                         ]
                     },
                     "icon": {
@@ -3807,7 +4010,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cả ổ rắn độc",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3817,8 +4020,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#11998E",
-                            "#38EF7D"
+                            "#69187A",
+                            "#911C88",
+                            "#A9217C"
                         ]
                     },
                     "icon": {
@@ -3827,7 +4031,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tiền đâu mà tiêu",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#FFFFFF",
                     "type": "static_content"
                 }
             },
@@ -3837,8 +4041,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#0F2027",
-                            "#2C5364"
+                            "#CEDF94",
+                            "#CCE4A5",
+                            "#CEE9B5"
                         ]
                     },
                     "icon": {
@@ -3847,7 +4052,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Cần nạp cafein gấp",
-                    "text_color": "#FFFFFFE6",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3857,8 +4062,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#1A4265",
+                            "#203F7B",
+                            "#263592"
                         ]
                     },
                     "icon": {
@@ -3877,8 +4083,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#761B36",
+                            "#8D2025",
+                            "#A43F25"
                         ]
                     },
                     "icon": {
@@ -3897,8 +4104,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#B351CC",
-                            "#E25296"
+                            "#8BE894",
+                            "#9DECB0",
+                            "#AFEFC8"
                         ]
                     },
                     "icon": {
@@ -3907,7 +4115,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hướng nội hết phần đời còn lại",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3917,8 +4125,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFCC25",
-                            "#F49B16"
+                            "#351D62",
+                            "#512478",
+                            "#732A8D"
                         ]
                     },
                     "icon": {
@@ -3937,8 +4146,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FF6B9A",
-                            "#F7428C"
+                            "#E8CCA5",
+                            "#ECE3B6",
+                            "#EDF0C7"
                         ]
                     },
                     "icon": {
@@ -3947,7 +4157,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Có nhiều cái chưa muốn nói đâu",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -3957,8 +4167,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#F7A22C",
-                            "#F95148"
+                            "#145957",
+                            "#196670",
+                            "#1F6B87"
                         ]
                     },
                     "icon": {
@@ -3977,8 +4188,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#60C8F2",
-                            "#387BD4"
+                            "#6B1558",
+                            "#821957",
+                            "#9A1E4E"
                         ]
                     },
                     "icon": {
@@ -3997,8 +4209,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#15B879",
-                            "#06A987"
+                            "#C9E5A8",
+                            "#C7EAB8",
+                            "#CBEFC9"
                         ]
                     },
                     "icon": {
@@ -4007,7 +4220,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "+1 máy bị deadline dí",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4017,8 +4230,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#FFCC25",
-                            "#F49B16"
+                            "#172157",
+                            "#1D1D6D",
+                            "#312283"
                         ]
                     },
                     "icon": {
@@ -4042,8 +4256,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#497BEB",
-                            "#8857DF"
+                            "#E8A098",
+                            "#ECBDAA",
+                            "#F0D5BB"
                         ]
                     },
                     "icon": {
@@ -4052,7 +4267,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Mai thi rồi, cứu tôi",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4062,8 +4277,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#497BEB",
-                            "#8857DF"
+                            "#187A39",
+                            "#1C9160",
+                            "#21A991"
                         ]
                     },
                     "icon": {
@@ -4082,8 +4298,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#497BEB",
-                            "#8857DF"
+                            "#441954",
+                            "#61206A",
+                            "#80267E"
                         ]
                     },
                     "icon": {
@@ -4102,8 +4319,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#497BEB",
-                            "#8857DF"
+                            "#E5E29B",
+                            "#DFE9AC",
+                            "#DCEEBD"
                         ]
                     },
                     "icon": {
@@ -4112,7 +4330,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Não đang loading...",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4122,8 +4340,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#497BEB",
-                            "#8857DF"
+                            "#1B6376",
+                            "#205B8D",
+                            "#254BA4"
                         ]
                     },
                     "icon": {
@@ -4147,8 +4366,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5531B9",
-                            "#B72CCB"
+                            "#E88BB0",
+                            "#EC9DB1",
+                            "#EFAFB5"
                         ]
                     },
                     "icon": {
@@ -4157,7 +4377,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Online nhưng không rep",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4167,8 +4387,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5531B9",
-                            "#B72CCB"
+                            "#28621D",
+                            "#247827",
+                            "#2A8D42"
                         ]
                     },
                     "icon": {
@@ -4187,8 +4408,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5531B9",
-                            "#B72CCB"
+                            "#251E73",
+                            "#462489",
+                            "#6E2AA0"
                         ]
                     },
                     "icon": {
@@ -4207,8 +4429,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5531B9",
-                            "#B72CCB"
+                            "#E5B78E",
+                            "#E9CE9F",
+                            "#EDE0B1"
                         ]
                     },
                     "icon": {
@@ -4217,7 +4440,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ping cao tại số phận",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4227,8 +4450,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#5531B9",
-                            "#B72CCB"
+                            "#156B52",
+                            "#198279",
+                            "#1E8C9A"
                         ]
                     },
                     "icon": {
@@ -4252,8 +4476,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#467FBF",
-                            "#75B9D7"
+                            "#E3A8E5",
+                            "#EAB8E0",
+                            "#EFC9DE"
                         ]
                     },
                     "icon": {
@@ -4262,7 +4487,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hôm nay hơi mệt một chút",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4272,8 +4497,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#467FBF",
-                            "#75B9D7"
+                            "#405717",
+                            "#456D1D",
+                            "#448322"
                         ]
                     },
                     "icon": {
@@ -4292,8 +4518,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#467FBF",
-                            "#75B9D7"
+                            "#183868",
+                            "#1D317F",
+                            "#222396"
                         ]
                     },
                     "icon": {
@@ -4312,8 +4539,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#467FBF",
-                            "#75B9D7"
+                            "#EDA0AD",
+                            "#F0B7B2",
+                            "#F4D4C4"
                         ]
                     },
                     "icon": {
@@ -4322,7 +4550,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Trái tim đang bảo trì",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4332,8 +4560,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#467FBF",
-                            "#75B9D7"
+                            "#195427",
+                            "#206A3C",
+                            "#268055"
                         ]
                     },
                     "icon": {
@@ -4357,8 +4586,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E99C30",
-                            "#EF6653"
+                            "#BE9BE5",
+                            "#D5ACE9",
+                            "#E7BDEE"
                         ]
                     },
                     "icon": {
@@ -4367,7 +4597,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ăn trước, tính sau",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4377,8 +4607,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E99C30",
-                            "#EF6653"
+                            "#765C1B",
+                            "#8D8920",
+                            "#8AA425"
                         ]
                     },
                     "icon": {
@@ -4397,8 +4628,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E99C30",
-                            "#EF6653"
+                            "#12545C",
+                            "#165C73",
+                            "#1B5E8B"
                         ]
                     },
                     "icon": {
@@ -4417,8 +4649,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E99C30",
-                            "#EF6653"
+                            "#E29ECB",
+                            "#E7AEC8",
+                            "#ECBFCB"
                         ]
                     },
                     "icon": {
@@ -4427,7 +4660,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ăn ngon quên lối về",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4437,8 +4670,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E99C30",
-                            "#EF6653"
+                            "#41731E",
+                            "#358924",
+                            "#2AA033"
                         ]
                     },
                     "icon": {
@@ -4462,8 +4696,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#13A67A",
-                            "#3BC89A"
+                            "#8E90E5",
+                            "#A99FE9",
+                            "#C2B1ED"
                         ]
                     },
                     "icon": {
@@ -4472,7 +4707,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Ví mỏng nhưng đam mê dày",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4482,8 +4717,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#13A67A",
-                            "#3BC89A"
+                            "#6B2815",
+                            "#824519",
+                            "#9A6A1E"
                         ]
                     },
                     "icon": {
@@ -4502,8 +4738,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#13A67A",
-                            "#3BC89A"
+                            "#217046",
+                            "#28866A",
+                            "#2E9B96"
                         ]
                     },
                     "icon": {
@@ -4522,8 +4759,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#13A67A",
-                            "#3BC89A"
+                            "#D691E2",
+                            "#E7A2E7",
+                            "#EBB3E3"
                         ]
                     },
                     "icon": {
@@ -4532,7 +4770,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Số dư không cho phép",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4542,8 +4780,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#13A67A",
-                            "#3BC89A"
+                            "#606818",
+                            "#627F1D",
+                            "#5D9622"
                         ]
                     },
                     "icon": {
@@ -4567,8 +4806,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E56DAB",
-                            "#EBA0D1"
+                            "#A0D3ED",
+                            "#B2CCF0",
+                            "#C4CCF4"
                         ]
                     },
                     "icon": {
@@ -4577,7 +4817,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Hôm nay bé hơi ngoan",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4587,8 +4827,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E56DAB",
-                            "#EBA0D1"
+                            "#541929",
+                            "#6A2029",
+                            "#802826"
                         ]
                     },
                     "icon": {
@@ -4607,8 +4848,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E56DAB",
-                            "#EBA0D1"
+                            "#1D651A",
+                            "#207B30",
+                            "#26924D"
                         ]
                     },
                     "icon": {
@@ -4627,8 +4869,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E56DAB",
-                            "#EBA0D1"
+                            "#B2A3EA",
+                            "#CFB4EE",
+                            "#E5C6F2"
                         ]
                     },
                     "icon": {
@@ -4637,7 +4880,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Em bé cần sạc pin",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4647,8 +4890,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E56DAB",
-                            "#EBA0D1"
+                            "#5C3E12",
+                            "#735C16",
+                            "#8B801B"
                         ]
                     },
                     "icon": {
@@ -4672,8 +4916,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2CACC8",
-                            "#45C9AD"
+                            "#9EE2D8",
+                            "#AEE4E7",
+                            "#BFE1EC"
                         ]
                     },
                     "icon": {
@@ -4682,7 +4927,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Xách balo lên và đi",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4692,8 +4937,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2CACC8",
-                            "#45C9AD"
+                            "#731E6C",
+                            "#892467",
+                            "#A02A5B"
                         ]
                     },
                     "icon": {
@@ -4712,8 +4958,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2CACC8",
-                            "#45C9AD"
+                            "#385914",
+                            "#3A7019",
+                            "#36871F"
                         ]
                     },
                     "icon": {
@@ -4732,8 +4979,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2CACC8",
-                            "#45C9AD"
+                            "#96ADEB",
+                            "#A7ADEE",
+                            "#C0B9F1"
                         ]
                     },
                     "icon": {
@@ -4742,7 +4990,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tạm biệt deadline",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4752,8 +5000,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#2CACC8",
-                            "#45C9AD"
+                            "#702124",
+                            "#863C28",
+                            "#9B602E"
                         ]
                     },
                     "icon": {
@@ -4777,8 +5026,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E66535",
-                            "#E6B43E"
+                            "#91E2AE",
+                            "#A2E7C5",
+                            "#B3EBD8"
                         ]
                     },
                     "icon": {
@@ -4787,7 +5037,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Đừng hỏi, tôi cũng không biết",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4797,8 +5047,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E66535",
-                            "#E6B43E"
+                            "#471868",
+                            "#6B1D7F",
+                            "#952296"
                         ]
                     },
                     "icon": {
@@ -4817,8 +5068,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E66535",
-                            "#E6B43E"
+                            "#7A6A18",
+                            "#87911C",
+                            "#7CA921"
                         ]
                     },
                     "icon": {
@@ -4837,8 +5089,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E66535",
-                            "#E6B43E"
+                            "#94CEDF",
+                            "#A5CCE4",
+                            "#B5CEE9"
                         ]
                     },
                     "icon": {
@@ -4847,7 +5100,7 @@ if (ua.includes("Locket")) {
                     },
                     "max_lines": 1,
                     "text": "Tỉnh táo nhưng không nhiều",
-                    "text_color": "#FFFFFF",
+                    "text_color": "#17243A",
                     "type": "static_content"
                 }
             },
@@ -4857,8 +5110,9 @@ if (ua.includes("Locket")) {
                 "caption": {
                     "background": {
                         "colors": [
-                            "#E66535",
-                            "#E6B43E"
+                            "#651A42",
+                            "#7B203E",
+                            "#922634"
                         ]
                     },
                     "icon": {
