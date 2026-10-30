@@ -14,7 +14,7 @@ if (ua.includes("Locket")) {
     obj.entries = obj.entries || {};
 
     // ============================================================
-    // 1. CẤU HÌNH GOLD, FEATURE GATES & PAYWALL (THEO BẢN DTH2927)
+    // 1. CẤU HÌNH GOLD, FEATURE GATES & PAYWALL 
     // ============================================================
     Object.assign(obj.entries, {
         feature_gates: JSON.stringify({
@@ -923,7 +923,7 @@ if (ua.includes("Locket")) {
                         caption: {
                             background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
                             max_lines: 1,
-                            text: "⚡ dth2/7",
+                            text: "⚡ dth24/7",
                             text_color: "#183153",
                             type: "static_content"
                         }
