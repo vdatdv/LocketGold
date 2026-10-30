@@ -1052,7 +1052,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1072,7 +1072,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1092,7 +1092,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1112,7 +1112,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1132,7 +1132,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1152,7 +1152,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1172,7 +1172,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
@@ -1192,7 +1192,7 @@ if (ua.includes("Locket")) {
                                 ]
                             },
                             "icon": {
-                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.jpg",
+                                "data": "https://raw.githubusercontent.com/vdatdv/LocketGold/main/scripts/verified-badge.png",
                                 "type": "image"
                             },
                             "max_lines": 1,
