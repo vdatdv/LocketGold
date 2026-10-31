@@ -1,4 +1,4 @@
-/ ============================================================
+// ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
@@ -453,20 +453,35 @@ if (ua.includes("Locket")) {
         onboarding_contact_permission_step: "true"
     });
 
-    // Mỗi lần script chạy, chọn ngẫu nhiên 1 phối màu ngọc trai.
-    // Không đảm bảo đổi màu sau mỗi lần chạm caption nếu ứng dụng cache Remote Config.
-    var pearlescentPalettes = [
-        ["#FFF1F2", "#E9D5FF", "#D9F7F3"],
-        ["#FCE7F3", "#EDE9FE", "#CCFBF1"],
-        ["#FFE4E6", "#DDD6FE", "#CFFAFE"],
-        ["#FDF2F8", "#E9D5FF", "#D1FAE5"],
-        ["#FBE7F3", "#E0E7FF", "#D9F9F1"],
-        ["#FFE8F1", "#F3E8FF", "#C7F9F1"]
-    ];
-
     // ============================================================
-    // 8. OVERLAY: CHỈ 2 CAPTION NHẬP CHỮ
+    // 8. PEARLESCENT – TỰ PHỐI MÀU MỖI LẦN CHẠY SCRIPT
     // ============================================================
+    // Không tạo overlay_id mới: giữ caption:standard để app nhận
+    // chức năng nhập text có sẵn. Chỉ thử bổ sung màu vào chính nó.
+    // Remote Config có thể bị cache hoặc Locket bỏ qua background.
+    function pearlHslToHex(h, s, l) {
+        s /= 100;
+        l /= 100;
+        var a = s * Math.min(l, 1 - l);
+        function f(n) {
+            var k = (n + h / 30) % 12;
+            var col = l - a * Math.max(-1, Math.min(k - 3, 9 - k, 1));
+            return Math.round(255 * col).toString(16).padStart(2, "0");
+        }
+        return "#" + f(0) + f(8) + f(4);
+    }
+    function randomPearlescentColors() {
+        // Chọn vùng sắc độ ngẫu nhiên, ba màu pastel liên quan nhau.
+        var hue = Math.floor(Math.random() * 360);
+        var shift = 38 + Math.floor(Math.random() * 38);
+        var palettes = [
+            pearlHslToHex(hue, 26 + Math.floor(Math.random() * 18), 90),
+            pearlHslToHex((hue + shift) % 360, 29 + Math.floor(Math.random() * 16), 86),
+            pearlHslToHex((hue + shift * 2) % 360, 30 + Math.floor(Math.random() * 16), 89)
+        ];
+        return palettes;
+    }
+    var pearlescentColors = randomPearlescentColors();
     Object.assign(obj.entries, {
         overlay_navigator_enabled: "true",
         overlays_v2_config: JSON.stringify({ suggestions_enabled: true }),
@@ -474,7 +489,6 @@ if (ua.includes("Locket")) {
         music_caption_enabled: "true",
         music_caption_song_preview_enabled: "true",
         link_caption_link_enabled: "true",
-        // Chỉ giữ 2 mục nhập chữ trong cấu hình caption tùy chỉnh.
         overlay_dynamic_captions: JSON.stringify(["standard"]),
         overlay_items: JSON.stringify([
             {
@@ -483,15 +497,10 @@ if (ua.includes("Locket")) {
                     {
                         overlay_id: "caption:standard",
                         source: "local",
-                        caption: { type: "standard" }
-                    },
-                    {
-                        overlay_id: "caption:vinhdat_pearlescent_text",
-                        source: "local",
                         caption: {
                             type: "standard",
-                            background: { colors: pearlescentPalettes[Math.floor(Math.random() * pearlescentPalettes.length)] },
-                            text_color: "#594A68"
+                            background: { colors: pearlescentColors },
+                            text_color: "#453953"
                         }
                     }
                 ]
