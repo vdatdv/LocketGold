@@ -1,12 +1,34 @@
-
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
 // ============================================================
 
-var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
-var obj = JSON.parse($response.body);
+(function () {
+var ua = ($request && $request.headers && ($request.headers["User-Agent"] || $request.headers["user-agent"])) || "";
+var obj;
+try {
+    obj = JSON.parse($response.body);
+    if (!obj || typeof obj !== "object" || Array.isArray(obj)) {
+        throw new Error("Remote Config response is not a JSON object");
+    }
+} catch (parseError) {
+    if (typeof console !== "undefined" && console.log) {
+        console.log("[VINHDAT AI CHECK] SKIP_NON_JSON_RESPONSE (Script Test may use placeholder text)");
+    }
+    $done({ body: $response.body });
+    return;
+}
+
+// Gộp cấu hình gốc thay vì xóa các khóa AI do máy chủ Locket cấp.
+function vinhdatReadConfigObject(raw) {
+    try {
+        if (typeof raw === "string") raw = JSON.parse(raw);
+        return raw && typeof raw === "object" && !Array.isArray(raw) ? raw : {};
+    } catch (ignored) {
+        return {};
+    }
+}
 
 
 // ============================================================
@@ -60,7 +82,7 @@ if (ua.includes("Locket")) {
     // 1. CẤU HÌNH GOLD, FEATURE GATES & PAYWALL 
     // ============================================================
     Object.assign(obj.entries, {
-        feature_gates: JSON.stringify({
+        feature_gates: JSON.stringify(Object.assign({}, vinhdatReadConfigObject(obj.entries.feature_gates), {
             app_icon_picker: "enabled",
             camera_roll: "enabled",
             camera_theme: "enabled",
@@ -74,15 +96,15 @@ if (ua.includes("Locket")) {
             video: "enabled",
             custom_widget_frames: "enabled",
             streak_recovery: "enabled"
-        }),
-        upsell_features: JSON.stringify({
+        })),
+        upsell_features: JSON.stringify(Object.assign({}, vinhdatReadConfigObject(obj.entries.upsell_features), {
             app_icon_picker: true,
             camera_roll: true,
             camera_theme: true,
             locket_views: true,
             remove_ads: true,
             custom_widget_frames: true
-        }),
+        })),
         paywall_presentation_config: JSON.stringify({
             uid: "paywall_testflight",
             onboarding: false,
@@ -185,8 +207,21 @@ if (ua.includes("Locket")) {
         flash_button: true
     };
 
-    obj.entries.camera = JSON.stringify(cameraConfig);
-    obj.entries.camera_roll = JSON.stringify(cameraRollConfig);
+    obj.entries.camera = JSON.stringify(Object.assign(
+        {}, vinhdatReadConfigObject(obj.entries.camera), cameraConfig
+    ));
+    obj.entries.camera_roll = JSON.stringify(Object.assign(
+        {}, vinhdatReadConfigObject(obj.entries.camera_roll), cameraRollConfig
+    ));
+
+    // AI Effects: KHÔNG ép danh sách bộ lọc tùy tạo lên Locket.
+    // Dùng nguyên camera_filter_config của server để tránh icon có mà bấm không mở.
+    // Nếu server không trả khóa này, không tự thêm ID bộ lọc chưa xác minh.
+    if (typeof console !== "undefined" && console.log) {
+        console.log("[VINHDAT AI FILTER] " +
+            (Object.prototype.hasOwnProperty.call(obj.entries, "camera_filter_config")
+                ? "NATIVE_CONFIG_PRESERVED" : "NO_NATIVE_FILTER_CONFIG"));
+    }
 
     Object.assign(obj.entries, {
         live_photos: JSON.stringify({
@@ -194,29 +229,6 @@ if (ua.includes("Locket")) {
             viewing: true,
             catch_up: true,
             widget_looping_mode: "never"
-        }),
-        camera_filter_config: JSON.stringify({
-            allows_custom_filters: true,
-            show_filter_button: true,
-            sheet_enabled: true,
-            open_sheet_immediately: true,
-            sheet_filters: [
-                { title: { en: "Goofy" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
-                { title: { en: "Looks" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
-                { title: { en: "Celebrate" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
-                { title: { en: "Cute" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
-                { title: { en: "Costumes" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
-                { title: { en: "Holidays" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
-            ],
-            picker_filters: [
-                "okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows",
-                "bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns",
-                "tatted", "mohawk", "braces", "slimed", "princess",
-                "disco_lights", "cash_money", "happy_birthday", "cutesy", "sticker_face",
-                "flower_crown", "love_bug", "wedding", "cowboy_cowgirl", "giraffe",
-                "clown", "easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun",
-                "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"
-            ]
         }),
         camera_roll_preview_enabled: "true",
         camera_roll_video_enabled: "true",
@@ -495,3 +507,4 @@ if (ua.includes("Locket")) {
 }
 
 $done({ body: JSON.stringify(obj) });
+})();
