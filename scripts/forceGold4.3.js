@@ -1,3 +1,4 @@
+
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
@@ -214,21 +215,35 @@ if (ua.includes("Locket")) {
         {}, vinhdatReadConfigObject(obj.entries.camera_roll), cameraRollConfig
     ));
 
-    // AI Effects: KHÔNG ép danh sách bộ lọc tùy tạo lên Locket.
-    // Dùng nguyên camera_filter_config của server để tránh icon có mà bấm không mở.
-    // Nếu server không trả khóa này, không tự thêm ID bộ lọc chưa xác minh.
-    if (typeof console !== "undefined" && console.log) {
-        console.log("[VINHDAT AI FILTER] " +
-            (Object.prototype.hasOwnProperty.call(obj.entries, "camera_filter_config")
-                ? "NATIVE_CONFIG_PRESERVED" : "NO_NATIVE_FILTER_CONFIG"));
-    }
-
     Object.assign(obj.entries, {
         live_photos: JSON.stringify({
             capture: true,
             viewing: true,
             catch_up: true,
             widget_looping_mode: "never"
+        }),
+        camera_filter_config: JSON.stringify({
+            allows_custom_filters: true,
+            show_filter_button: true,
+            sheet_enabled: true,
+            open_sheet_immediately: true,
+            sheet_filters: [
+                { title: { en: "Goofy" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
+                { title: { en: "Looks" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
+                { title: { en: "Celebrate" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
+                { title: { en: "Cute" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
+                { title: { en: "Costumes" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
+                { title: { en: "Holidays" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
+            ],
+            picker_filters: [
+                "okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows",
+                "bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns",
+                "tatted", "mohawk", "braces", "slimed", "princess",
+                "disco_lights", "cash_money", "happy_birthday", "cutesy", "sticker_face",
+                "flower_crown", "love_bug", "wedding", "cowboy_cowgirl", "giraffe",
+                "clown", "easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun",
+                "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"
+            ]
         }),
         camera_roll_preview_enabled: "true",
         camera_roll_video_enabled: "true",
