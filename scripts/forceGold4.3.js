@@ -100,11 +100,14 @@ if (ua.includes("Locket")) {
     });
 
     // ============================================================
-    // 3. CAMERA, VIDEO (45S / 0.6MBPS) & DUNG LƯỢNG TẢI (100MB)
+    // 3. CAMERA 45S, ALBUM 60S, KICH THUOC VIDEO 100MB
     // ============================================================
+    // Quay truc tiep: 45s; video co san tu album: 60s.
+    // Cac gia tri nay chi la Remote Config, khong bo qua gioi han noi bo cua app/server.
     var MY_VIDEO_DURATION = 45.0;
-    var durationStr = MY_VIDEO_DURATION.toString();
-    var MAX_SIZE_BYTES = 104857600; // 100MB
+    var ALBUM_VIDEO_DURATION = 60.0;
+    var albumDurationStr = ALBUM_VIDEO_DURATION.toString();
+    var MAX_SIZE_BYTES = 104857600; // 100 MiB
 
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -124,16 +127,16 @@ if (ua.includes("Locket")) {
     };
 
     var cameraRollConfig = {
-        gold_max_duration: MY_VIDEO_DURATION,
-        goldMaxDuration: MY_VIDEO_DURATION,
-        video_max_duration: MY_VIDEO_DURATION,
-        videoMaxDuration: MY_VIDEO_DURATION,
-        max_duration: MY_VIDEO_DURATION,
-        maxDuration: MY_VIDEO_DURATION,
-        trim_max_duration: MY_VIDEO_DURATION,
-        trimMaxDuration: MY_VIDEO_DURATION,
-        camera_roll_max_duration: MY_VIDEO_DURATION,
-        camera_roll_video_max_duration: MY_VIDEO_DURATION,
+        gold_max_duration: ALBUM_VIDEO_DURATION,
+        goldMaxDuration: ALBUM_VIDEO_DURATION,
+        video_max_duration: ALBUM_VIDEO_DURATION,
+        videoMaxDuration: ALBUM_VIDEO_DURATION,
+        max_duration: ALBUM_VIDEO_DURATION,
+        maxDuration: ALBUM_VIDEO_DURATION,
+        trim_max_duration: ALBUM_VIDEO_DURATION,
+        trimMaxDuration: ALBUM_VIDEO_DURATION,
+        camera_roll_max_duration: ALBUM_VIDEO_DURATION,
+        camera_roll_video_max_duration: ALBUM_VIDEO_DURATION,
         max_file_size: MAX_SIZE_BYTES,
         max_upload_bytes: MAX_SIZE_BYTES,
         max_size_bytes: MAX_SIZE_BYTES,
@@ -180,15 +183,15 @@ if (ua.includes("Locket")) {
         camera_roll_video_upload_enabled: "true",
         internal_camera_roll_video_upload_enabled: "true",
         longer_camera_roll_videos_enabled: "true",
-        camera_roll_video_max_duration: durationStr,
-        camera_roll_max_duration: durationStr,
-        camera_roll_duration: durationStr,
-        max_video_duration: durationStr,
-        video_max_duration: durationStr,
-        video_trim_max_duration: durationStr,
-        trim_max_duration: durationStr,
-        gold_max_duration: durationStr,
-        goldMaxDuration: durationStr,
+        camera_roll_video_max_duration: albumDurationStr,
+        camera_roll_max_duration: albumDurationStr,
+        camera_roll_duration: albumDurationStr,
+        max_video_duration: albumDurationStr,
+        video_max_duration: albumDurationStr,
+        video_trim_max_duration: albumDurationStr,
+        trim_max_duration: albumDurationStr,
+        gold_max_duration: albumDurationStr,
+        goldMaxDuration: albumDurationStr,
         max_file_size: MAX_SIZE_BYTES.toString(),
         max_upload_bytes: MAX_SIZE_BYTES.toString(),
         video_quality_mbps: "0.6",
@@ -197,7 +200,7 @@ if (ua.includes("Locket")) {
         camera_microphone_enabled: "true",
         audio_session_deactivation_enabled: "true",
         zoom_enabled: "true",
-        upload_main: "false",
+        // Khong ghi de upload_main: giu gia tri goc cua server.
         upload_main_image_quality: "1.0",
         upload_main_image_size: "1440",
         upload_thumbnail_image_quality: "1.0",
