@@ -100,121 +100,51 @@ if (ua.includes("Locket")) {
     });
 
     // ============================================================
-    // 3. CAMERA 45S, ALBUM 60S, KICH THUOC VIDEO 100MB
+    // 3. CAMERA 45 GIAY + ALBUM UPLOAD AN TOAN
     // ============================================================
-    // Quay truc tiep: 45s; video co san tu album: 60s.
-    // Cac gia tri nay chi la Remote Config, khong bo qua gioi han noi bo cua app/server.
-    var MY_VIDEO_DURATION = 45.0;
-    var ALBUM_VIDEO_DURATION = 60.0;
-    var albumDurationStr = ALBUM_VIDEO_DURATION.toString();
-    var MAX_SIZE_BYTES = 104857600; // 100 MiB
+    // CHU Y:
+    // - Remote Config KHONG phai API upload video.
+    // - Khong ep 60s/100MB neu server/app khong xac nhan ho tro.
+    // - Khong thay doi bucket, CDN, mime-type, codec, upload_main.
+    // - Bao toan cac truong cau hinh camera/camera_roll do server tra ve.
+    // - Cam quay 45s duoc giu theo cau hinh VINHDAT truoc day.
 
-    var cameraConfig = {
-        gold_max_duration: MY_VIDEO_DURATION,
-        goldMaxDuration: MY_VIDEO_DURATION,
-        max_duration: MY_VIDEO_DURATION,
-        maxDuration: MY_VIDEO_DURATION,
-        ultra_wide: true,
-        ultraWide: true,
-        volume_button: true,
-        volumeButton: true,
-        flash_button: true,
-        telephoto: true,
-        srgb: true,
-        lanczos: true,
-        quality_mbps: 0.6,
-        qualityMbps: 0.6
-    };
+    var VINHDAT_CAMERA_SECONDS = 45.0;
 
-    var cameraRollConfig = {
-        gold_max_duration: ALBUM_VIDEO_DURATION,
-        goldMaxDuration: ALBUM_VIDEO_DURATION,
-        video_max_duration: ALBUM_VIDEO_DURATION,
-        videoMaxDuration: ALBUM_VIDEO_DURATION,
-        max_duration: ALBUM_VIDEO_DURATION,
-        maxDuration: ALBUM_VIDEO_DURATION,
-        trim_max_duration: ALBUM_VIDEO_DURATION,
-        trimMaxDuration: ALBUM_VIDEO_DURATION,
-        camera_roll_max_duration: ALBUM_VIDEO_DURATION,
-        camera_roll_video_max_duration: ALBUM_VIDEO_DURATION,
-        max_file_size: MAX_SIZE_BYTES,
-        max_upload_bytes: MAX_SIZE_BYTES,
-        max_size_bytes: MAX_SIZE_BYTES,
-        // Do not force transcoding bitrate for album videos.
-        // Keep the server's encoding defaults to avoid an unsupported pipeline.
-        flash_button: true
-    };
-
-    obj.entries.camera = JSON.stringify(cameraConfig);
-    // Preserve unknown server-supplied camera_roll fields instead of replacing
-    // the entire object, which could remove supported media upload parameters.
-    var originalCameraRollConfig = {};
-    try {
-        var rawCameraRoll = obj.entries.camera_roll;
-        if (typeof rawCameraRoll === "string") {
-            var parsedCameraRoll = JSON.parse(rawCameraRoll);
-            if (parsedCameraRoll && typeof parsedCameraRoll === "object" && !Array.isArray(parsedCameraRoll)) {
-                originalCameraRollConfig = parsedCameraRoll;
-            }
-        } else if (rawCameraRoll && typeof rawCameraRoll === "object" && !Array.isArray(rawCameraRoll)) {
-            originalCameraRollConfig = rawCameraRoll;
+    function vinhdatReadConfigEntry(value) {
+        if (value && typeof value === "object" && !Array.isArray(value)) {
+            return value;
         }
-    } catch (e) {}
-    obj.entries.camera_roll = JSON.stringify(Object.assign({}, originalCameraRollConfig, cameraRollConfig));
+        if (typeof value === "string") {
+            try {
+                var v = JSON.parse(value);
+                if (v && typeof v === "object" && !Array.isArray(v)) return v;
+            } catch (ignored) {}
+        }
+        return {};
+    }
 
+    // Camera: chi sua gioi han quay, khong thay the toan bo camera config.
+    var cameraConfig = vinhdatReadConfigEntry(obj.entries.camera);
+    cameraConfig.gold_max_duration = VINHDAT_CAMERA_SECONDS;
+    cameraConfig.goldMaxDuration = VINHDAT_CAMERA_SECONDS;
+    cameraConfig.max_duration = VINHDAT_CAMERA_SECONDS;
+    cameraConfig.maxDuration = VINHDAT_CAMERA_SECONDS;
+    obj.entries.camera = JSON.stringify(cameraConfig);
+
+    // Album: GIU NGUYEN gioi han/codec/dung luong native do server cung cap.
+    // Khong tao cac khoa khong duoc chung minh co tac dung.
+    // Chi bat cac co giao dien upload neu client co ho tro.
     Object.assign(obj.entries, {
-        live_photos: JSON.stringify({
-            capture: true,
-            viewing: true,
-            catch_up: true,
-            widget_looping_mode: "never"
-        }),
-        camera_filter_config: JSON.stringify({
-            allows_custom_filters: true,
-            show_filter_button: true,
-            sheet_enabled: true,
-            open_sheet_immediately: true,
-            sheet_filters: [
-                { title: { en: "Goofy" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
-                { title: { en: "Looks" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
-                { title: { en: "Celebrate" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
-                { title: { en: "Cute" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
-                { title: { en: "Costumes" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
-                { title: { en: "Holidays" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
-            ],
-            picker_filters: [
-                "okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows",
-                "bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns",
-                "tatted", "mohawk", "braces", "slimed", "princess",
-                "disco_lights", "cash_money", "happy_birthday", "cutesy", "sticker_face",
-                "flower_crown", "love_bug", "wedding", "cowboy_cowgirl", "giraffe",
-                "clown", "easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun",
-                "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"
-            ]
-        }),
         camera_roll_preview_enabled: "true",
         camera_roll_video_enabled: "true",
         camera_roll_video_upload_enabled: "true",
-        internal_camera_roll_video_upload_enabled: "true",
-        longer_camera_roll_videos_enabled: "true",
-        camera_roll_video_max_duration: albumDurationStr,
-        camera_roll_max_duration: albumDurationStr,
-        camera_roll_duration: albumDurationStr,
-        max_video_duration: albumDurationStr,
-        video_max_duration: albumDurationStr,
-        video_trim_max_duration: albumDurationStr,
-        trim_max_duration: albumDurationStr,
-        gold_max_duration: albumDurationStr,
-        goldMaxDuration: albumDurationStr,
-        max_file_size: MAX_SIZE_BYTES.toString(),
-        max_upload_bytes: MAX_SIZE_BYTES.toString(),
-        video_sound_enabled: "true",
-        microphone_enabled: "true",
-        camera_microphone_enabled: "true",
-        audio_session_deactivation_enabled: "true",
-        // Leave upload_main and thumbnail settings as provided by Locket.
-        zoom_enabled: "true"
+        internal_camera_roll_video_upload_enabled: "true"
     });
+
+    if (typeof console !== "undefined" && console.log) {
+        console.log("[VINHDAT] camera=45s; album size/duration/CDN/bucket=server defaults. No upload payload changed.");
+    }
 
     // ============================================================
     // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
