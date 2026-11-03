@@ -140,13 +140,27 @@ if (ua.includes("Locket")) {
         max_file_size: MAX_SIZE_BYTES,
         max_upload_bytes: MAX_SIZE_BYTES,
         max_size_bytes: MAX_SIZE_BYTES,
-        quality_mbps: 0.6,
-        qualityMbps: 0.6,
+        // Do not force transcoding bitrate for album videos.
+        // Keep the server's encoding defaults to avoid an unsupported pipeline.
         flash_button: true
     };
 
     obj.entries.camera = JSON.stringify(cameraConfig);
-    obj.entries.camera_roll = JSON.stringify(cameraRollConfig);
+    // Preserve unknown server-supplied camera_roll fields instead of replacing
+    // the entire object, which could remove supported media upload parameters.
+    var originalCameraRollConfig = {};
+    try {
+        var rawCameraRoll = obj.entries.camera_roll;
+        if (typeof rawCameraRoll === "string") {
+            var parsedCameraRoll = JSON.parse(rawCameraRoll);
+            if (parsedCameraRoll && typeof parsedCameraRoll === "object" && !Array.isArray(parsedCameraRoll)) {
+                originalCameraRollConfig = parsedCameraRoll;
+            }
+        } else if (rawCameraRoll && typeof rawCameraRoll === "object" && !Array.isArray(rawCameraRoll)) {
+            originalCameraRollConfig = rawCameraRoll;
+        }
+    } catch (e) {}
+    obj.entries.camera_roll = JSON.stringify(Object.assign({}, originalCameraRollConfig, cameraRollConfig));
 
     Object.assign(obj.entries, {
         live_photos: JSON.stringify({
@@ -194,17 +208,12 @@ if (ua.includes("Locket")) {
         goldMaxDuration: albumDurationStr,
         max_file_size: MAX_SIZE_BYTES.toString(),
         max_upload_bytes: MAX_SIZE_BYTES.toString(),
-        video_quality_mbps: "0.6",
         video_sound_enabled: "true",
         microphone_enabled: "true",
         camera_microphone_enabled: "true",
         audio_session_deactivation_enabled: "true",
-        zoom_enabled: "true",
-        // Khong ghi de upload_main: giu gia tri goc cua server.
-        upload_main_image_quality: "1.0",
-        upload_main_image_size: "1440",
-        upload_thumbnail_image_quality: "1.0",
-        upload_thumbnail_image_size: "1020"
+        // Leave upload_main and thumbnail settings as provided by Locket.
+        zoom_enabled: "true"
     });
 
     // ============================================================
@@ -398,12 +407,8 @@ if (ua.includes("Locket")) {
     // 7. HỆ THỐNG CDN, CACHE & STORAGE ĐẦY ĐỦ
     // ============================================================
     Object.assign(obj.entries, {
-        cdn_domain_replacements: JSON.stringify({
-            "firebasestorage.googleapis.com": "cdn.locketcamera.com"
-        }),
-        cdn_domain_replacements_video: "true",
-        storage_bucket: "gs://locket-img",
-        storage_bucket_video: "gs://locket-video",
+        // IMPORTANT: no override for CDN or storage_bucket, including video.
+        // Use original values returned by Locket's Remote Config.
         image_cache_max_age_sec: "157680000",
         image_cache_max_size: "400000000",
         history_cache_age_days: "1000",
