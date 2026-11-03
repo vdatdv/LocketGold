@@ -1,5 +1,5 @@
 // ============================================================
-// Locket Remote Config Rewrite - Fix Upload Error
+// Locket Remote Config Rewrite - Fix Native Transcode
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
 // ============================================================
@@ -8,13 +8,11 @@ var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
 var obj = JSON.parse($response.body);
 
 if (ua.includes("Locket")) {
-    obj.Attention = "Đã tối ưu video & sửa lỗi gửi!";
+    obj.Attention = "Đã tối ưu hóa tính năng gửi Video Album!";
     obj.state = "UPDATE";
     obj.entries = obj.entries || {};
 
-    // ============================================================
-    // 1. KÍCH HOẠT GOLD & MỞ TÍNH NĂNG
-    // ============================================================
+    // 1. Kích hoạt tính năng Gold & gỡ giới hạn
     Object.assign(obj.entries, {
         feature_gates: JSON.stringify({
             app_icon_picker: "enabled",
@@ -53,58 +51,26 @@ if (ua.includes("Locket")) {
         sentry_sample_rate: "0"
     });
 
-    // ============================================================
-    // 2. CẤU HÌNH VIDEO CHUẨN SERVER (TRÁNH FAILED TO SEND)
-    // ============================================================
-    // Để 30s để server không reject payload upload
-    var ALBUM_VIDEO_DURATION = 30.0;
-    var albumDurationStr = ALBUM_VIDEO_DURATION.toString();
-    var MAX_SIZE_BYTES = 52428800; // 50 MiB (chuẩn an toàn)
-
+    // 2. Cấu hình Camera Roll theo Preset tự nhiên của iOS
+    // Không can thiệp bitrate cưỡng bức để tránh lỗi mã hóa AVFoundation
     var cameraConfig = {
         gold_max_duration: 30.0,
-        goldMaxDuration: 30.0,
         max_duration: 30.0,
-        maxDuration: 30.0,
         ultra_wide: true,
-        ultraWide: true,
         volume_button: true,
-        volumeButton: true,
         flash_button: true,
-        telephoto: true,
-        srgb: true,
-        quality_mbps: 2.0,
-        qualityMbps: 2.0,
-        fps: 30
+        telephoto: true
     };
 
     var cameraRollConfig = {
-        gold_max_duration: ALBUM_VIDEO_DURATION,
-        goldMaxDuration: ALBUM_VIDEO_DURATION,
-        video_max_duration: ALBUM_VIDEO_DURATION,
-        videoMaxDuration: ALBUM_VIDEO_DURATION,
-        max_duration: ALBUM_VIDEO_DURATION,
-        maxDuration: ALBUM_VIDEO_DURATION,
-        trim_max_duration: ALBUM_VIDEO_DURATION,
-        trimMaxDuration: ALBUM_VIDEO_DURATION,
-        camera_roll_max_duration: ALBUM_VIDEO_DURATION,
-        camera_roll_video_max_duration: ALBUM_VIDEO_DURATION,
-        max_file_size: MAX_SIZE_BYTES,
-        max_upload_bytes: MAX_SIZE_BYTES,
-        max_size_bytes: MAX_SIZE_BYTES,
-        quality_mbps: 2.0,
-        qualityMbps: 2.0,
-        video_quality_mbps: 2.0,
-        allow_high_fps: true,
-        max_fps: 30,
-        target_fps: 30,
-        transcode_high_fps: true,
-        support_hdr: true,
-        tone_mapping_enabled: true,
-        force_h264_transcode: true,
-        normalize_orientation: true,
-        audio_bitrate_kbps: 128,
-        audio_channels: 2
+        gold_max_duration: 30.0,
+        video_max_duration: 30.0,
+        max_duration: 30.0,
+        trim_max_duration: 30.0,
+        camera_roll_max_duration: 30.0,
+        camera_roll_video_max_duration: 30.0,
+        max_file_size: 52428800,
+        max_upload_bytes: 52428800
     };
 
     obj.entries.camera = JSON.stringify(cameraConfig);
@@ -116,30 +82,22 @@ if (ua.includes("Locket")) {
         camera_roll_video_upload_enabled: "true",
         internal_camera_roll_video_upload_enabled: "true",
         longer_camera_roll_videos_enabled: "true",
-        camera_roll_video_max_duration: albumDurationStr,
-        camera_roll_max_duration: albumDurationStr,
-        camera_roll_duration: albumDurationStr,
-        max_video_duration: albumDurationStr,
-        video_max_duration: albumDurationStr,
-        video_trim_max_duration: albumDurationStr,
-        trim_max_duration: albumDurationStr,
-        gold_max_duration: albumDurationStr,
-        goldMaxDuration: albumDurationStr,
-        max_file_size: MAX_SIZE_BYTES.toString(),
-        max_upload_bytes: MAX_SIZE_BYTES.toString(),
-        video_quality_mbps: "2.0",
-        video_max_dimension: "1080",
-        video_target_fps: "30",
+        camera_roll_video_max_duration: "30.0",
+        camera_roll_max_duration: "30.0",
+        camera_roll_duration: "30.0",
+        max_video_duration: "30.0",
+        video_max_duration: "30.0",
+        video_trim_max_duration: "30.0",
+        trim_max_duration: "30.0",
+        gold_max_duration: "30.0",
+        max_file_size: "52428800",
+        max_upload_bytes: "52428800",
         video_sound_enabled: "true",
         microphone_enabled: "true",
-        camera_microphone_enabled: "true",
-        upload_main_image_quality: "0.9",
-        upload_main_image_size: "1080"
+        camera_microphone_enabled: "true"
     });
 
-    // ============================================================
-    // 3. TÍNH NĂNG PHỤ & CAPTION CƠ BẢN
-    // ============================================================
+    // 3. Caption & tính năng phụ
     Object.assign(obj.entries, {
         moment_views_enabled: "true",
         moment_views_v2: "true",
